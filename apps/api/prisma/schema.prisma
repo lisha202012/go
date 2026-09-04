@@ -1,0 +1,927 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  user
+  admin
+}
+
+/// Granular staff roles (Section 84). Assign via AdminStaffAssignment — not the legacy User.role flag alone.
+enum AdminStaffRoleType {
+  super_admin
+  mission_content_admin
+  mission_analytics_viewer
+  journey_admin
+  journey_analytics_viewer
+  glow_admin
+  glow_analytics_viewer
+  trust_safety_admin
+  institution_admin
+  auditor
+}
+
+enum TreeLevel {
+  Seedling
+  Sprouting
+  YoungTree
+  Flourishing
+  Blossoming
+  Fruiting
+  Ancient
+  Radiant
+  Sacred
+  TreeOfFlow
+}
+
+enum HillCode {
+  HOPE
+  HONE
+  HOLD
+  HOOD
+  HOST
+  HORN
+  HOOK
+}
+
+enum MissionStatus {
+  locked
+  current
+  completed
+}
+
+enum LedgerType {
+  personal_growth
+  promotional
+}
+
+enum LedgerSource {
+  mission
+  reflection
+  evidence
+  growth_set
+  flow_week
+  camp
+  family_mission
+  welcome_bonus
+  admin_grant
+  spend
+  migration_block_conversion
+  harvest_reward
+}
+
+enum GlowSeedStatus {
+  pending
+  accepted
+  expired
+}
+
+enum GlowSeedChannel {
+  in_app
+  external
+}
+
+enum Virtue {
+  Kindness
+  Responsibility
+  Discipline
+  Integrity
+  HardWork
+  Courage
+  Patience
+}
+
+enum FriendshipStatus {
+  following
+  friends
+  blocked
+}
+
+enum FamilyMemberRole {
+  Mom
+  Dad
+  Sister
+  Brother
+  Son
+  Daughter
+  Grandma
+  Grandpa
+  Aunt
+  Uncle
+  Cousin
+  Other
+}
+
+enum AccountType {
+  member
+  official_coach
+}
+
+enum JourneyRole {
+  self_growth
+  next_generation_guidance
+  both
+}
+
+enum OrganizationStatus {
+  listed
+  community_interest
+  gofam_verified
+}
+
+enum OrganizationMembershipStatus {
+  unverified
+  pending
+  verified
+}
+
+enum FamilyMemberStatus {
+  pending
+  active
+  declined
+}
+
+enum GapCategory {
+  S1E
+  S1G
+  S1R
+  N1
+  N2
+  N3
+  N4
+  N5
+  N6
+  N7
+}
+
+enum GapAnswer {
+  always
+  often
+  sometimes
+  rarely
+  never
+}
+
+model AvatarAsset {
+  id        String   @id @default(cuid())
+  name      String
+  imageUrl  String
+  isActive  Boolean  @default(true)
+  sortOrder Int      @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([isActive, sortOrder])
+}
+
+model User {
+  id                 String    @id @default(cuid())
+  username           String    @unique
+  email              String    @unique
+  passwordHash       String
+  avatarUrl          String?
+  role               Role      @default(user)
+  ageGroup           String?
+  dateOfBirth        DateTime?
+  /// GOFAM-facing name (separate from unique username).
+  displayName        String?
+  /// Sprout onboarding: parent/guardian present (null = not answered).
+  guardianSupported  Boolean?
+  guardianUserId     String?
+  guardianUser       User?     @relation("UserGuardian", fields: [guardianUserId], references: [id], onDelete: SetNull)
+  wards              User[]    @relation("UserGuardian")
+  journeyRole        JourneyRole?
+  accountType        AccountType @default(member)
+  officialAccount    Boolean   @default(false)
+  autoConnectNewUsers Boolean  @default(false)
+  welcomeGlowSeedEnabled Boolean @default(false)
+  monthlyGlowSeedEnabled Boolean @default(false)
+  autoBloomReceivedSeed Boolean @default(false)
+  qualifyingReceivedSeedLimit Int?
+  countryId          String?
+  stateId            String?
+  cityId             String?
+  countryName        String?
+  stateName          String?
+  cityName           String?
+  standard           String? // school grade/class, e.g. "8", "UG", "Pre-K" — free text
+  section            String? // e.g. "A", "B" — free text, only meaningful alongside standard
+  country            GeoCountry? @relation(fields: [countryId], references: [id], onDelete: SetNull)
+  state              GeoState?   @relation(fields: [stateId], references: [id], onDelete: SetNull)
+  city               GeoCity?    @relation(fields: [cityId], references: [id], onDelete: SetNull)
+  locationUpdatedAt  DateTime?
+  locationSetupDeferred Boolean @default(false)
+  /// User skipped school/org belonging step during onboarding.
+  belongingSetupDeferred Boolean @default(false)
+  flowLeadershipScore Int      @default(0)
+  flowLeadershipInternal Float  @default(0)
+  coachBalaMonthlyDueDay Int?
+  coachBalaWelcomeSentAt DateTime?
+  isChildProfile     Boolean   @default(false)
+  familyId           String?
+  family             Family?   @relation(fields: [familyId], references: [id], onDelete: SetNull)
+  /// User finished the onboarding family step (saved, skipped, or deferred).
+  familyOnboardingComplete Boolean @default(false)
+  /// User chose "Add later" — show family setup prompt on profile.
+  familySetupDeferred      Boolean @default(false)
+  walletCoins        Int       @default(0)
+  growthCoinsLifetime  Int       @default(0)
+  flowIndex          Int       @default(0)
+  currentStep        Int       @default(0)
+  currentCampId      String?
+  currentCamp        Camp?     @relation(fields: [currentCampId], references: [id], onDelete: SetNull)
+  treeLevel          TreeLevel @default(Seedling)
+  /// Cached total Tree Stars (never spent). Kept in sync by TreeStarGrant writes.
+  treeStars          Int       @default(0)
+  seedInventoryCount   Int       @default(0)
+  currentStreak        Int       @default(0)
+  onboardingCompleted  Boolean   @default(false)
+  /// TOTP MFA for admin console only (Section 87).
+  adminMfaEnabled      Boolean   @default(false)
+  adminMfaSecret       String?
+  adminMfaEnrolledAt   DateTime?
+  /// Force password change on next admin console login (dev defaults must reset).
+  adminPasswordMustReset Boolean @default(false)
+  /// Account status for trust & safety admin actions.
+  accountStatus        String    @default("active")
+  suspendedAt          DateTime?
+  suspendedReason      String?
+  /// Personal GOFAM week start weekday (0=Sun … 6=Sat), permanent after onboarding.
+  gofamWeekStartDay    Int?
+  /// 1 = legacy hill-block model; 2 = FLOW week daily schedule model.
+  journeyModelVersion  Int       @default(1)
+  migratedAt           DateTime?
+  /// Authoritative lockstep step count (all hills); denormalized from GrowthSet batches.
+  flowLockstepSteps    Int       @default(0)
+  legacyStepsByHill    Json?
+  legacyPeakSteps      Int       @default(0)
+  legacyJourneySnapshot Json?
+  starterWeekActive    Boolean   @default(false)
+  starterWeekCompletedAt DateTime?
+  createdAt            DateTime  @default(now())
+  updatedAt            DateTime  @updatedAt
+
+  missionProgress    UserMissionProgress[]
+  missionCompletions MissionCompletion[]
+  growthSets         GrowthSet[]
+  coinLedger         CoinLedgerEntry[]
+  seedsSent       GlowSeed[]            @relation("SeedsSent")
+  seedsReceived   GlowSeed[]            @relation("SeedsReceived")
+  activeVirtues   ActiveVirtue[]
+  friendshipsA    Friendship[]          @relation("FriendshipA")
+  friendshipsB    Friendship[]          @relation("FriendshipB")
+  refreshTokens   RefreshToken[]
+  gapAssessment   GapAssessment?
+  personalWeekSchedules PersonalWeekSchedule[]
+  familyMemberships FamilyMember[]      @relation("FamilyMemberUser")
+  familyInvitesSent FamilyMember[]      @relation("FamilyInvitedBy")
+  missionSurfacing  MissionSurfacing[]
+  missionSwaps      MissionSwap[]
+  auditLogsAsActor  AuditLog[]            @relation("AuditLogActor")
+  auditLogsAsSubject AuditLog[]           @relation("AuditLogSubject")
+  adminStaffRoles   AdminStaffAssignment[] @relation("AdminStaffUser")
+  adminRolesGranted AdminStaffAssignment[] @relation("AdminStaffGrantedBy")
+  campStreakTokens  CampStreakToken[]
+  harvestAsPlanter  HarvestMilestoneClaim[] @relation("HarvestPlanter")
+  harvestAsSprout   HarvestMilestoneClaim[] @relation("HarvestSprout")
+  treeStarGrants    TreeStarGrant[]
+  organizationMemberships OrganizationMembership[]
+  organizationInterests   OrganizationInterest[]
+  schoolRegistrationLinkClaims SchoolRegistrationLinkClaim[]
+  coachBalaQualifyingGrants CoachBalaQualifyingGrant[]
+
+  @@index([familyId])
+  @@index([currentCampId])
+  @@index([countryId])
+  @@index([stateId])
+  @@index([cityId])
+  @@index([ageGroup, flowLeadershipInternal])
+  @@index([cityId, ageGroup, flowLeadershipInternal])
+}
+
+/// Idempotent ledger for Tree Stars (camp / GAP / coin milestones / GLOW virtues).
+model TreeStarGrant {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  /// "camp" | "gap" | "coin_milestone" | "virtue"
+  source    String
+  /// camp: campNumber; gap: gapAssessmentId; coin_milestone: threshold; virtue: `${virtue}:${yyyy-mm}`
+  sourceKey String
+  stars     Int
+  grantedAt DateTime @default(now())
+
+  @@unique([userId, source, sourceKey])
+  @@index([userId])
+}
+
+model Hill {
+  id          String   @id @default(cuid())
+  code        HillCode @unique
+  name        String
+  description String
+  virtueName  String
+  colorTheme  String
+
+  missions           Mission[]
+  growthSets         GrowthSet[]
+  virtues            ActiveVirtue[]
+  gapScores          GapHillScore[]
+  gapQuestions       GapQuestion[]
+  strongestFor       GapAssessment[] @relation("StrongestHill")
+  focusFor           GapAssessment[] @relation("FocusHill")
+  personalDayAssignments PersonalDayAssignment[]
+  missionCompletions MissionCompletion[]
+}
+
+model GapAssessment {
+  id                  String   @id @default(cuid())
+  userId              String   @unique
+  user                User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  flowIndex           Int
+  totalRawScore       Int
+  strongestHillId     String
+  strongestHill       Hill     @relation("StrongestHill", fields: [strongestHillId], references: [id])
+  focusHillId         String
+  focusHill           Hill     @relation("FocusHill", fields: [focusHillId], references: [id])
+  isOfficial          Boolean  @default(true)
+  completedAt         DateTime @default(now())
+  nextRecalibrationAt DateTime
+  focusMissionIds     String[] @default([])
+  hillMissionSelections Json   @default("{}")
+  /// 7 hillIds ordered Day1 (lowest GAP score) → Day7; index 0 = Day 1.
+  dayRankings         String[] @default([])
+  rankingsEffectiveFrom DateTime?
+  rankingsLockedUntil DateTime?
+  supersededById      String?
+  supersededBy        GapAssessment?  @relation("GapAssessmentSupersede", fields: [supersededById], references: [id], onDelete: SetNull)
+  supersedes          GapAssessment[] @relation("GapAssessmentSupersede")
+  hillScores          GapHillScore[]
+  responses           GapResponse[]
+  personalWeekSchedules PersonalWeekSchedule[]
+
+  @@index([strongestHillId])
+  @@index([focusHillId])
+  @@index([supersededById])
+}
+
+model GapHillScore {
+  id              String        @id @default(cuid())
+  gapAssessmentId String
+  gapAssessment   GapAssessment @relation(fields: [gapAssessmentId], references: [id], onDelete: Cascade)
+  hillId          String
+  hill            Hill          @relation(fields: [hillId], references: [id], onDelete: Cascade)
+  rawScore        Int
+  flowPercent     Int
+
+  @@index([gapAssessmentId])
+  @@index([hillId])
+  @@unique([gapAssessmentId, hillId])
+}
+
+model GapQuestion {
+  id              String        @id @default(cuid())
+  /// Age/GAP category code (S1E, V6, N7, …) — 5 active questions per hill per category.
+  categoryCode    String
+  /// Question order within hill (1–5), aligned to mission internal group 1–5.
+  order           Int
+  missionGroup    Int
+  hillId          String
+  hill            Hill          @relation(fields: [hillId], references: [id], onDelete: Cascade)
+  text            String
+  isReverseScored Boolean       @default(false)
+  responses       GapResponse[]
+
+  @@unique([categoryCode, hillId, order])
+  @@index([categoryCode])
+}
+
+model GapResponse {
+  id           String        @id @default(cuid())
+  assessmentId String
+  assessment   GapAssessment @relation(fields: [assessmentId], references: [id], onDelete: Cascade)
+  questionId   String
+  question     GapQuestion   @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  rawAnswer    Int
+  scoredValue  Int
+
+  @@unique([assessmentId, questionId])
+  @@index([assessmentId])
+}
+
+model Mission {
+  id                 String  @id @default(cuid())
+  hillId             String
+  hill               Hill    @relation(fields: [hillId], references: [id], onDelete: Cascade)
+  /// Age/GAP category code (S1E, V6, N7, …) — 15 missions per hill per category.
+  categoryCode       String
+  /// Internal mission group (1–5). Three missions per group; user sees one per group.
+  missionGroup       Int
+  /// Client mission id, e.g. MIS-N7-HOPE-01
+  externalId         String? @unique
+  title              String
+  description        String
+  /// Benefit copy shown as "Why?" when the user opens a mission. Editable by admins.
+  whyText            String?
+  imageUrl           String?
+  coinReward         Int
+  pulseReward        Int     @default(0)
+  requiresReflection Boolean @default(false)
+  requiresEvidence   Boolean @default(false)
+  isFamilyMission    Boolean @default(false)
+  order              Int
+  isDisabled         Boolean @default(false)
+  disabledAt         DateTime?
+  disabledReason     String?
+
+  progress              UserMissionProgress[]
+  completions           MissionCompletion[]
+  surfacing             MissionSurfacing[]
+  swapsAsOriginal       MissionSwap[]         @relation("SwapOriginal")
+  swapsAsReplacement    MissionSwap[]         @relation("SwapReplacement")
+
+  @@index([hillId, categoryCode])
+  @@unique([hillId, categoryCode, order])
+}
+
+model MissionSurfacing {
+  id         String   @id @default(cuid())
+  userId     String
+  missionId  String
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  mission    Mission  @relation(fields: [missionId], references: [id], onDelete: Cascade)
+  surfacedAt DateTime @default(now())
+  /// recommendation | swap_picker
+  source     String
+
+  @@index([userId, missionId])
+  @@index([userId, surfacedAt])
+}
+
+model MissionSwap {
+  id                   String   @id @default(cuid())
+  userId               String
+  hillId               String
+  categoryCode         String
+  /// focus | block-{weekNumber}
+  cycleKey             String
+  originalMissionId    String
+  replacementMissionId String
+  swapCount            Int
+  swappedAt            DateTime @default(now())
+  user                 User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  originalMission      Mission  @relation("SwapOriginal", fields: [originalMissionId], references: [id], onDelete: Cascade)
+  replacementMission   Mission  @relation("SwapReplacement", fields: [replacementMissionId], references: [id], onDelete: Cascade)
+
+  @@index([userId, cycleKey])
+  @@index([userId, swappedAt])
+}
+
+model UserMissionProgress {
+  id              String        @id @default(cuid())
+  userId          String
+  missionId       String
+  user            User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  mission         Mission       @relation(fields: [missionId], references: [id], onDelete: Cascade)
+  status          MissionStatus @default(locked)
+  startedAt       DateTime?
+  completedAt     DateTime?
+  /// Lifetime times this mission was completed (never resets).
+  completionCount Int           @default(0)
+  reflectionText  String?
+  evidenceUrl     String?
+
+  @@unique([userId, missionId])
+  @@index([userId])
+  @@index([missionId])
+}
+
+/// One row per mission completion event (supports repeats + completion counters).
+model MissionCompletion {
+  id              String   @id @default(cuid())
+  userId          String
+  missionId       String
+  hillId          String
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  mission         Mission  @relation(fields: [missionId], references: [id], onDelete: Cascade)
+  hill            Hill     @relation(fields: [hillId], references: [id], onDelete: Cascade)
+  /// Today's Home Hill day assignment when completed toward that day's 3/3 bonus.
+  dayAssignmentId String?
+  calendarDate    DateTime
+  coinsAwarded    Int
+  /// home_bonus_slot | home_extra | other_hill
+  kind            String
+  /// Nth lifetime completion of this mission for the user (1-based).
+  sequence        Int
+  createdAt       DateTime @default(now())
+
+  @@index([userId, missionId])
+  @@index([userId, calendarDate])
+  @@index([userId, dayAssignmentId])
+  @@index([userId, hillId])
+}
+
+model GrowthSet {
+  id            String   @id @default(cuid())
+  userId        String
+  hillId        String
+  user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  hill          Hill     @relation(fields: [hillId], references: [id], onDelete: Cascade)
+  completedAt   DateTime @default(now())
+  /// Links the 7 lockstep rows from one Step award.
+  awardBatchId  String?
+  /// legacy_block | flow_perfect_week | flow_starter_week | migration_baseline
+  awardSource   String?
+
+  @@index([userId])
+  @@index([hillId])
+  @@index([userId, awardBatchId])
+  @@index([userId, awardSource])
+}
+
+model PersonalWeekSchedule {
+  id                String   @id @default(cuid())
+  userId            String
+  user              User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  personalWeekStart DateTime
+  assessmentId      String
+  assessment        GapAssessment @relation(fields: [assessmentId], references: [id], onDelete: Cascade)
+  isStarterWeek     Boolean  @default(false)
+  perfectWeek       Boolean  @default(false)
+  stepAwardedAt     DateTime?
+  createdAt         DateTime @default(now())
+  days              PersonalDayAssignment[]
+
+  @@unique([userId, personalWeekStart])
+  @@index([userId])
+  @@index([assessmentId])
+}
+
+model PersonalDayAssignment {
+  id                   String   @id @default(cuid())
+  scheduleId           String
+  schedule             PersonalWeekSchedule @relation(fields: [scheduleId], references: [id], onDelete: Cascade)
+  dayIndex             Int
+  calendarDate         DateTime
+  hillId               String
+  hill                 Hill     @relation(fields: [hillId], references: [id], onDelete: Cascade)
+  prescribedMissionIds String[] @default([])
+  prescribedCompleted  Int      @default(0)
+  dailyFlowComplete    Boolean  @default(false)
+
+  @@unique([scheduleId, dayIndex])
+  @@index([scheduleId])
+  @@index([hillId])
+}
+
+model Camp {
+  id            String @id @default(cuid())
+  number        Int    @unique
+  name          String
+  stepThreshold Int
+  coinReward    Int
+  users         User[]
+}
+
+model CampStreakToken {
+  id                     String    @id @default(cuid())
+  userId                 String
+  user                   User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  campNumber             Int
+  status                 String    @default("available")
+  usedForDayAssignmentId String?
+  earnedAt               DateTime  @default(now())
+  usedAt                 DateTime?
+
+  @@unique([userId, campNumber])
+  @@index([userId, status])
+}
+
+model CoinLedgerEntry {
+  id          String       @id @default(cuid())
+  userId      String
+  user        User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  amount      Int
+  ledgerType  LedgerType
+  source      LedgerSource
+  referenceId String?
+  createdAt   DateTime     @default(now())
+
+  @@index([userId])
+  @@index([createdAt])
+}
+
+model GlowSeed {
+  id         String          @id @default(cuid())
+  senderId   String
+  receiverId String?
+  sender     User            @relation("SeedsSent", fields: [senderId], references: [id], onDelete: Cascade)
+  receiver   User?           @relation("SeedsReceived", fields: [receiverId], references: [id], onDelete: Cascade)
+  status     GlowSeedStatus  @default(pending)
+  channel    GlowSeedChannel @default(in_app)
+  shareToken String?         @unique
+  sentAt     DateTime        @default(now())
+  expiresAt  DateTime
+  acceptedAt DateTime?
+  virtue     Virtue?
+  bloomedAt  DateTime?
+  /// System/coach seeds skip sender inventory; user seeds leave defaults.
+  isSystemSeed Boolean @default(false)
+  /// user | welcome_coach | monthly_coach
+  seedKind     String?
+
+  activeVirtues ActiveVirtue[]
+
+  @@index([senderId])
+  @@index([receiverId])
+  @@index([status, expiresAt])
+}
+
+model HarvestMilestoneClaim {
+  id           String   @id @default(cuid())
+  planterId    String
+  sproutId     String
+  planter      User     @relation("HarvestPlanter", fields: [planterId], references: [id], onDelete: Cascade)
+  sprout       User     @relation("HarvestSprout", fields: [sproutId], references: [id], onDelete: Cascade)
+  threshold    Int
+  rewardAmount Int
+  claimedAt    DateTime @default(now())
+
+  @@unique([planterId, sproutId, threshold])
+  @@index([planterId])
+  @@index([sproutId])
+}
+
+model ActiveVirtue {
+  id           String   @id @default(cuid())
+  userId       String
+  virtue       Virtue
+  hillId       String
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  hill         Hill     @relation(fields: [hillId], references: [id], onDelete: Cascade)
+  activatedAt  DateTime @default(now())
+  expiresAt    DateTime
+  sourceSeedId String
+  sourceSeed   GlowSeed @relation(fields: [sourceSeedId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([expiresAt])
+}
+
+model Friendship {
+  id        String           @id @default(cuid())
+  userAId   String
+  userBId   String
+  userA     User             @relation("FriendshipA", fields: [userAId], references: [id], onDelete: Cascade)
+  userB     User             @relation("FriendshipB", fields: [userBId], references: [id], onDelete: Cascade)
+  status    FriendshipStatus @default(following)
+  createdAt DateTime         @default(now())
+
+  @@unique([userAId, userBId])
+  @@index([userAId])
+  @@index([userBId])
+}
+
+model Family {
+  id       String         @id @default(cuid())
+  name     String
+  planType String
+  renewsAt DateTime?
+  members  User[]
+  roster   FamilyMember[]
+}
+
+model FamilyMember {
+  id              String             @id @default(cuid())
+  familyId        String
+  family          Family             @relation(fields: [familyId], references: [id], onDelete: Cascade)
+  userId          String?
+  user            User?              @relation("FamilyMemberUser", fields: [userId], references: [id], onDelete: SetNull)
+  role            FamilyMemberRole
+  displayName     String?
+  invitedByUserId String?
+  invitedBy       User?              @relation("FamilyInvitedBy", fields: [invitedByUserId], references: [id], onDelete: SetNull)
+  inviteEmail     String?
+  inviteUsername  String?
+  dateOfBirth     DateTime?
+  ageCategory     String?
+  status          FamilyMemberStatus @default(pending)
+  inviteToken     String?            @unique
+  createdAt       DateTime           @default(now())
+  acceptedAt      DateTime?
+
+  @@unique([familyId, userId])
+  @@index([familyId])
+  @@index([userId])
+  @@index([inviteEmail])
+  @@index([inviteUsername])
+  @@index([status])
+}
+
+model AdminConfig {
+  id          String @id @default(cuid())
+  key         String @unique
+  value       Json
+  description String?
+}
+
+/// Cross-cutting audit trail (Section 85). Immutable append-only log.
+model AuditLog {
+  id           String   @id @default(cuid())
+  /// Admin or system actor; null for automated jobs.
+  actorUserId  String?
+  actorUser    User?    @relation("AuditLogActor", fields: [actorUserId], references: [id], onDelete: SetNull)
+  /// e.g. mission_engine | journey | glow | trust_safety | system
+  module       String
+  /// e.g. mission.update | progress.correct | account.suspend
+  action       String
+  /// Target entity type + id for drill-down.
+  entityType   String?
+  entityId     String?
+  /// Optional affected end-user (distinct from actor).
+  subjectUserId String?
+  subjectUser   User?    @relation("AuditLogSubject", fields: [subjectUserId], references: [id], onDelete: SetNull)
+  /// Snapshot before change (manual corrections, config edits).
+  beforeJson   Json?
+  afterJson    Json?
+  metadata     Json?
+  ipAddress    String?
+  userAgent    String?
+  createdAt    DateTime @default(now())
+
+  @@index([module, action])
+  @@index([actorUserId])
+  @@index([subjectUserId])
+  @@index([entityType, entityId])
+  @@index([createdAt])
+}
+
+/// Staff role assignments — a user may hold multiple roles (Section 84).
+model AdminStaffAssignment {
+  id              String             @id @default(cuid())
+  userId          String
+  user            User               @relation("AdminStaffUser", fields: [userId], references: [id], onDelete: Cascade)
+  role            AdminStaffRoleType
+  /// Optional org scope for institution_admin; null = global.
+  institutionId   String?
+  grantedAt       DateTime           @default(now())
+  grantedByUserId String?
+  grantedBy       User?              @relation("AdminStaffGrantedBy", fields: [grantedByUserId], references: [id], onDelete: SetNull)
+
+  @@unique([userId, role, institutionId])
+  @@index([userId])
+  @@index([role])
+}
+
+model RefreshToken {
+  id             String    @id @default(cuid())
+  jti            String?   @unique
+  tokenHash      String    @unique
+  userId         String
+  user           User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  deviceName     String?
+  userAgent      String?
+  ipAddress      String?
+  locationLabel  String?
+  lastActiveAt   DateTime  @default(now())
+  expiresAt      DateTime
+  createdAt      DateTime  @default(now())
+  revokedAt      DateTime?
+  /// True when session was created via admin MFA flow (required for /admin API).
+  adminConsoleSession Boolean @default(false)
+
+  @@index([userId])
+  @@index([userId, revokedAt])
+}
+
+model GeoCountry {
+  id     String     @id @default(cuid())
+  code   String     @unique
+  name   String
+  states GeoState[]
+  users  User[]
+}
+
+model GeoState {
+  id        String      @id @default(cuid())
+  countryId String
+  country   GeoCountry  @relation(fields: [countryId], references: [id], onDelete: Cascade)
+  name      String
+  cities    GeoCity[]
+  users     User[]
+
+  @@unique([countryId, name])
+  @@index([countryId])
+}
+
+model GeoCity {
+  id            String         @id @default(cuid())
+  stateId       String
+  state         GeoState       @relation(fields: [stateId], references: [id], onDelete: Cascade)
+  name          String
+  organizations Organization[]
+  users         User[]
+
+  @@unique([stateId, name])
+  @@index([stateId])
+}
+
+model Organization {
+  id            String             @id @default(cuid())
+  name          String
+  type          String             @default("school")
+  status        OrganizationStatus @default(listed)
+  /// Official invite code for verified membership (QR / link / admin issued).
+  inviteCode    String?
+  orgGroupId    String?
+  orgGroup      Organization?      @relation("OrgGroup", fields: [orgGroupId], references: [id], onDelete: SetNull)
+  subOrgs       Organization[]     @relation("OrgGroup")
+  cityId        String?
+  city          GeoCity?           @relation(fields: [cityId], references: [id], onDelete: SetNull)
+  cityName      String?
+  stateName     String?
+  countryName   String?
+  interestCount Int                @default(0)
+  memberships   OrganizationMembership[]
+  interests     OrganizationInterest[]
+  registrationLinks SchoolRegistrationLink[]
+
+  @@index([cityId])
+  @@index([status])
+  @@index([name])
+}
+
+model SchoolRegistrationLink {
+  id             String                     @id @default(cuid())
+  token          String                     @unique
+  batchId        String?
+  organizationId String
+  organization   Organization               @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  standard       String?
+  section        String?
+  isActive       Boolean                    @default(true)
+  usesCount      Int                        @default(0)
+  createdByAdminId String?
+  createdAt      DateTime                   @default(now())
+  claims         SchoolRegistrationLinkClaim[]
+
+  @@index([organizationId])
+  @@index([batchId])
+}
+
+model SchoolRegistrationLinkClaim {
+  id        String                   @id @default(cuid())
+  linkId    String
+  link      SchoolRegistrationLink   @relation(fields: [linkId], references: [id], onDelete: Cascade)
+  userId    String                   @unique
+  user      User                     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  claimedAt DateTime                 @default(now())
+
+  @@unique([linkId])
+}
+
+model OrganizationMembership {
+  id             String                       @id @default(cuid())
+  userId         String
+  user           User                         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  organizationId String
+  organization   Organization                 @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  status         OrganizationMembershipStatus @default(unverified)
+  startDate      DateTime                     @default(now())
+  endDate        DateTime?
+
+  @@index([userId])
+  @@index([organizationId, status])
+}
+
+model OrganizationInterest {
+  id               String        @id @default(cuid())
+  userId           String
+  user             User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  organizationId   String?
+  organization     Organization? @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  organizationName String?
+  /// Set when user is notified the org became GOFAM verified.
+  verifiedNotifiedAt DateTime?
+  createdAt        DateTime      @default(now())
+
+  @@unique([userId, organizationId])
+  @@index([organizationId])
+}
+
+model CoachBalaQualifyingGrant {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  monthKey  String
+  seedId    String   @unique
+  createdAt DateTime @default(now())
+
+  @@unique([userId, monthKey])
+  @@index([userId])
+}

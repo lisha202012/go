@@ -1,0 +1,24 @@
+{
+  "name": "gofam-grow",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "postinstall": "npm run build -w @gofam/shared-types",
+    "dev": "node scripts/dev-stack.mjs",
+    "dev:web": "npm run dev -w @gofam/web",
+    "dev:api": "npm run dev -w @gofam/api",
+    "dev:stack": "node scripts/dev-stack.mjs",
+    "build": "npm run build --workspaces --if-present",
+    "db:generate": "npm run db:generate -w @gofam/api",
+    "db:migrate": "npm run db:migrate -w @gofam/api",
+    "db:seed": "npm run db:seed -w @gofam/api",
+    "db:studio": "npm run db:studio -w @gofam/api"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

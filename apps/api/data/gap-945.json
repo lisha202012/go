@@ -1,0 +1,6630 @@
+{
+  "meta": {
+    "categories": 9,
+    "hills": 7,
+    "questionsPerHill": 15,
+    "activePerHill": 5,
+    "total": 945,
+    "contentStatus": "dev-placeholder",
+    "contentNote": "Full rewrite from missions-945.json mission-group themes (scripts/generate-gap-from-missions.mjs). Not a reorder of gen-gap105.mjs. Pending client copy review before contentStatus is approved.",
+    "generatedAt": "2026-08-14T08:15:04.786Z",
+    "generator": "scripts/generate-gap-from-missions.mjs"
+  },
+  "questions": [
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOPE",
+      "order": 1,
+      "text": "I spent warm, face-to-face time with my baby or toddler, followed their lead in play, and welcomed them when we reunited.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOPE",
+      "order": 2,
+      "text": "I listened carefully before responding to my baby or toddler and expressed appreciation for how they communicate.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOPE",
+      "order": 3,
+      "text": "I did something kind for my baby or toddler or let them see me do a caring act without expecting anything in return.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOPE",
+      "order": 4,
+      "text": "I checked in on my baby or toddler when I thought they might need encouragement or support.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOPE",
+      "order": 5,
+      "text": "I avoided apologizing or taking the first step to reconnect when I knew my baby or toddler and I needed repair.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOPE",
+      "order": 6,
+      "text": "I made time for meaningful conversation with someone close to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOPE",
+      "order": 7,
+      "text": "I apologised when I knew I had hurt someone's feelings.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOPE",
+      "order": 8,
+      "text": "I celebrated someone else's success without comparing myself.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOPE",
+      "order": 9,
+      "text": "I spoke respectfully even when I disagreed.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOPE",
+      "order": 10,
+      "text": "I ignored messages or calls from people who matter to me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOPE",
+      "order": 11,
+      "text": "I showed patience when someone needed extra support.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOPE",
+      "order": 12,
+      "text": "I expressed appreciation to someone who helps me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOPE",
+      "order": 13,
+      "text": "I kept a commitment I made to a family member or friend.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOPE",
+      "order": 14,
+      "text": "I worked through a disagreement without shutting people out.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOPE",
+      "order": 15,
+      "text": "I was dismissive when someone tried to share with me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HONE",
+      "order": 1,
+      "text": "I protected sleep and rest for my baby or toddler and for myself.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HONE",
+      "order": 2,
+      "text": "I moved my body through physical activity with my baby or toddler or on my own most days.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HONE",
+      "order": 3,
+      "text": "I kept my baby or toddler adequately hydrated and nourished with regular meals.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HONE",
+      "order": 4,
+      "text": "I noticed early signs of stress while caring for my baby or toddler and used a healthy reset before it built up.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HONE",
+      "order": 5,
+      "text": "I neglected long-term health prevention for myself even when I knew a small step would help future me care for my baby or toddler.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HONE",
+      "order": 6,
+      "text": "I ate meals that gave me steady energy through the day.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HONE",
+      "order": 7,
+      "text": "I noticed early signs of stress and responded before they built up.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HONE",
+      "order": 8,
+      "text": "I limited habits that I know harm my health.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HONE",
+      "order": 9,
+      "text": "I took breaks when my body or mind needed rest.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HONE",
+      "order": 10,
+      "text": "I skipped meals or sleep when I knew I needed them.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HONE",
+      "order": 11,
+      "text": "I chose water or nourishing drinks over excessive caffeine or sugar.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HONE",
+      "order": 12,
+      "text": "I stretched or moved after long periods of sitting.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HONE",
+      "order": 13,
+      "text": "I followed through on a health-related goal I had set.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HONE",
+      "order": 14,
+      "text": "I treated illness or pain with appropriate care instead of ignoring it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HONE",
+      "order": 15,
+      "text": "I pushed through exhaustion when rest was the better choice.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOLD",
+      "order": 1,
+      "text": "I tracked where our household money went, including spending related to my baby or toddler.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOLD",
+      "order": 2,
+      "text": "I paused before a purchase and considered whether it was worth the cost for our family.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOLD",
+      "order": 3,
+      "text": "I protected money I had decided to save for our family's future needs.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOLD",
+      "order": 4,
+      "text": "I prepared ahead for future expenses our family expects, including costs related to my baby or toddler.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOLD",
+      "order": 5,
+      "text": "I spent on our household without thinking about whether it matched my priorities.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOLD",
+      "order": 6,
+      "text": "I tracked where my money was going for important expenses.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOLD",
+      "order": 7,
+      "text": "I delayed a purchase when I was not sure I could afford it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOLD",
+      "order": 8,
+      "text": "I put something aside for a future need or goal.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOLD",
+      "order": 9,
+      "text": "I compared prices or options before a significant purchase.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOLD",
+      "order": 10,
+      "text": "I made impulse purchases I later regretted.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOLD",
+      "order": 11,
+      "text": "I paid bills or obligations on time.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOLD",
+      "order": 12,
+      "text": "I talked openly about money decisions with people who should be involved.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOLD",
+      "order": 13,
+      "text": "I used a budget or spending plan to guide my choices.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOLD",
+      "order": 14,
+      "text": "I avoided unnecessary debt or high-interest borrowing.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOLD",
+      "order": 15,
+      "text": "I spent without thinking about whether it matched my priorities.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOD",
+      "order": 1,
+      "text": "I paused before acting when my emotions were strong while caring for my baby or toddler and noticed how I was feeling.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOD",
+      "order": 2,
+      "text": "I kept a commitment or promise I made to my baby or toddler or our family.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOD",
+      "order": 3,
+      "text": "My actions matched the values I want my baby or toddler to see me live by.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOD",
+      "order": 4,
+      "text": "I paused before reacting when I felt overwhelmed caring for my baby or toddler and used a healthy outlet to recover.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOD",
+      "order": 5,
+      "text": "I let personal boundaries slip when keeping them would have been inconvenient for my baby or toddler or me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOD",
+      "order": 6,
+      "text": "I named my feelings instead of letting them drive my actions blindly.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOD",
+      "order": 7,
+      "text": "I chose a healthy outlet when I felt overwhelmed.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOD",
+      "order": 8,
+      "text": "I forgave myself after a mistake instead of dwelling on it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOD",
+      "order": 9,
+      "text": "I set a boundary that protected my wellbeing.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOD",
+      "order": 10,
+      "text": "I spoke harshly to myself in ways I would not use with others.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOD",
+      "order": 11,
+      "text": "I took time to reflect on what matters most to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOD",
+      "order": 12,
+      "text": "I reached out for support when I needed it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOD",
+      "order": 13,
+      "text": "I made a choice that aligned with my long-term wellbeing over short-term comfort.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOD",
+      "order": 14,
+      "text": "I noticed when I was running on empty and adjusted before burning out.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOD",
+      "order": 15,
+      "text": "I ignored warning signs that I was overstressed or depleted.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOST",
+      "order": 1,
+      "text": "I followed through on something I agreed to take care of at home for my baby or toddler.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOST",
+      "order": 2,
+      "text": "I helped at home with invitation to help without always waiting to be asked.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOST",
+      "order": 3,
+      "text": "I cared for belongings or did simple maintenance to keep our home working well for my baby or toddler.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOST",
+      "order": 4,
+      "text": "I reset or organised a shared space so our home felt clean and comfortable for my baby or toddler.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOST",
+      "order": 5,
+      "text": "I neglected a household issue at home or left a shared space worse than I found it.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOST",
+      "order": 6,
+      "text": "I put things back where they belong after using them.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOST",
+      "order": 7,
+      "text": "I shared responsibility for meals or household routines.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOST",
+      "order": 8,
+      "text": "I fixed or reported something broken instead of leaving it for someone else.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOST",
+      "order": 9,
+      "text": "I made our home feel welcoming for the people who live there or visit.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOST",
+      "order": 10,
+      "text": "I left messes for others to clean up when I could have handled them.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOST",
+      "order": 11,
+      "text": "I prepared ahead so mornings or busy days ran more smoothly at home.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOST",
+      "order": 12,
+      "text": "I respected shared spaces and other people's belongings.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOST",
+      "order": 13,
+      "text": "I completed a household task I had been putting off.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOST",
+      "order": 14,
+      "text": "I contributed to making home a calm, orderly place.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOST",
+      "order": 15,
+      "text": "I neglected basic upkeep that I knew needed doing.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HORN",
+      "order": 1,
+      "text": "I had a clear sense of one priority or challenge I am working towards for my baby or toddler and our family.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HORN",
+      "order": 2,
+      "text": "I acted on an important priority for my baby or toddler or our family rather than only thinking about it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HORN",
+      "order": 3,
+      "text": "I returned to an important goal for my baby or toddler or our family after a setback and tried again.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HORN",
+      "order": 4,
+      "text": "I asked for or used feedback to learn and improve in how I support my baby or toddler.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HORN",
+      "order": 5,
+      "text": "I avoided feedback or a challenging step that would have helped me grow as a parent to my baby or toddler.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HORN",
+      "order": 6,
+      "text": "I broke a large goal into steps I could act on this week.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HORN",
+      "order": 7,
+      "text": "I learned something new that supports a goal I care about.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HORN",
+      "order": 8,
+      "text": "I measured progress on something important to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HORN",
+      "order": 9,
+      "text": "I said no to distractions that would pull me off course.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HORN",
+      "order": 10,
+      "text": "I gave up on a goal as soon as it got difficult.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HORN",
+      "order": 11,
+      "text": "I asked for help or advice to improve in an area that matters to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HORN",
+      "order": 12,
+      "text": "I finished something I started even when motivation dropped.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HORN",
+      "order": 13,
+      "text": "I reviewed whether my daily actions matched my stated priorities.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HORN",
+      "order": 14,
+      "text": "I took a small risk that could help me grow.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HORN",
+      "order": 15,
+      "text": "I avoided trying because I feared I would not succeed.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOK",
+      "order": 1,
+      "text": "I planned my time so there was room for important things, including time with my baby or toddler.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOK",
+      "order": 2,
+      "text": "I focused on one task at a time without unnecessary distractions while caring for my baby or toddler.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOK",
+      "order": 3,
+      "text": "I finished something important I started for my baby or toddler or our home instead of leaving it undone.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOK",
+      "order": 4,
+      "text": "I gave my full attention to my baby or toddler or the person in front of me rather than splitting my presence.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOK",
+      "order": 5,
+      "text": "I was unnecessarily impatient with my baby or toddler when I needed to wait.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOK",
+      "order": 6,
+      "text": "I started my day with a clear sense of what mattered most.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOK",
+      "order": 7,
+      "text": "I batch similar tasks to use my time more efficiently.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOK",
+      "order": 8,
+      "text": "I ended the day without leaving priorities I could have addressed undone.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOK",
+      "order": 9,
+      "text": "I protected focused time from unnecessary interruptions.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOK",
+      "order": 10,
+      "text": "I lost track of time on activities that did not matter to me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOK",
+      "order": 11,
+      "text": "I arrived on time for commitments I had made.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOK",
+      "order": 12,
+      "text": "I built in buffer time so delays did not derail my whole day.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOK",
+      "order": 13,
+      "text": "I chose presence over multitasking when someone needed my attention.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOK",
+      "order": 14,
+      "text": "I reviewed how I spent my time and adjusted for the next day.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1E",
+      "hillCode": "HOOK",
+      "order": 15,
+      "text": "I let urgent but unimportant tasks crowd out what truly mattered.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOPE",
+      "order": 1,
+      "text": "I spent warm, face-to-face time with my preschooler, followed their lead in play, and welcomed them when we reunited.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOPE",
+      "order": 2,
+      "text": "I listened carefully before responding to my preschooler and expressed appreciation for how they communicate.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOPE",
+      "order": 3,
+      "text": "I did something kind for my preschooler or let them see me do a caring act without expecting anything in return.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOPE",
+      "order": 4,
+      "text": "I checked in on my preschooler when I thought they might need encouragement or support.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOPE",
+      "order": 5,
+      "text": "I avoided apologizing or taking the first step to reconnect when I knew my preschooler and I needed repair.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOPE",
+      "order": 6,
+      "text": "I made time for meaningful conversation with someone close to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOPE",
+      "order": 7,
+      "text": "I apologised when I knew I had hurt someone's feelings.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOPE",
+      "order": 8,
+      "text": "I celebrated someone else's success without comparing myself.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOPE",
+      "order": 9,
+      "text": "I spoke respectfully even when I disagreed.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOPE",
+      "order": 10,
+      "text": "I ignored messages or calls from people who matter to me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOPE",
+      "order": 11,
+      "text": "I showed patience when someone needed extra support.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOPE",
+      "order": 12,
+      "text": "I expressed appreciation to someone who helps me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOPE",
+      "order": 13,
+      "text": "I kept a commitment I made to a family member or friend.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOPE",
+      "order": 14,
+      "text": "I worked through a disagreement without shutting people out.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOPE",
+      "order": 15,
+      "text": "I was dismissive when someone tried to share with me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HONE",
+      "order": 1,
+      "text": "I gave my preschooler and myself enough sleep and rest.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HONE",
+      "order": 2,
+      "text": "I moved my body through physical activity with my preschooler or on my own most days.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HONE",
+      "order": 3,
+      "text": "I kept myself and my preschooler adequately hydrated and nourished with regular meals.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HONE",
+      "order": 4,
+      "text": "I noticed early signs of stress while caring for my preschooler and used a healthy reset before it built up.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HONE",
+      "order": 5,
+      "text": "I neglected long-term health prevention for myself even when I knew a small step would help future me care for my preschooler.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HONE",
+      "order": 6,
+      "text": "I ate meals that gave me steady energy through the day.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HONE",
+      "order": 7,
+      "text": "I noticed early signs of stress and responded before they built up.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HONE",
+      "order": 8,
+      "text": "I limited habits that I know harm my health.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HONE",
+      "order": 9,
+      "text": "I took breaks when my body or mind needed rest.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HONE",
+      "order": 10,
+      "text": "I skipped meals or sleep when I knew I needed them.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HONE",
+      "order": 11,
+      "text": "I chose water or nourishing drinks over excessive caffeine or sugar.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HONE",
+      "order": 12,
+      "text": "I stretched or moved after long periods of sitting.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HONE",
+      "order": 13,
+      "text": "I followed through on a health-related goal I had set.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HONE",
+      "order": 14,
+      "text": "I treated illness or pain with appropriate care instead of ignoring it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HONE",
+      "order": 15,
+      "text": "I pushed through exhaustion when rest was the better choice.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOLD",
+      "order": 1,
+      "text": "I tracked where our household money went, including spending related to my preschooler.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOLD",
+      "order": 2,
+      "text": "I paused before a purchase and considered whether it was worth the cost for our family.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOLD",
+      "order": 3,
+      "text": "I protected money I had decided to save for our family's future needs.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOLD",
+      "order": 4,
+      "text": "I prepared ahead for future expenses our family expects, including costs related to my preschooler.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOLD",
+      "order": 5,
+      "text": "I spent on our household without thinking about whether it matched my priorities.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOLD",
+      "order": 6,
+      "text": "I tracked where my money was going for important expenses.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOLD",
+      "order": 7,
+      "text": "I delayed a purchase when I was not sure I could afford it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOLD",
+      "order": 8,
+      "text": "I put something aside for a future need or goal.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOLD",
+      "order": 9,
+      "text": "I compared prices or options before a significant purchase.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOLD",
+      "order": 10,
+      "text": "I made impulse purchases I later regretted.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOLD",
+      "order": 11,
+      "text": "I paid bills or obligations on time.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOLD",
+      "order": 12,
+      "text": "I talked openly about money decisions with people who should be involved.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOLD",
+      "order": 13,
+      "text": "I used a budget or spending plan to guide my choices.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOLD",
+      "order": 14,
+      "text": "I avoided unnecessary debt or high-interest borrowing.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOLD",
+      "order": 15,
+      "text": "I spent without thinking about whether it matched my priorities.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOD",
+      "order": 1,
+      "text": "I paused before acting when my emotions were strong while caring for my preschooler and noticed how I was feeling.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOD",
+      "order": 2,
+      "text": "I kept a commitment or promise I made to my preschooler or our family.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOD",
+      "order": 3,
+      "text": "My actions matched the values I want my preschooler to see me live by.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOD",
+      "order": 4,
+      "text": "I paused before reacting when I felt overwhelmed caring for my preschooler and used a healthy outlet to recover.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOD",
+      "order": 5,
+      "text": "I let personal boundaries slip when keeping them would have been inconvenient for my preschooler or me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOD",
+      "order": 6,
+      "text": "I named my feelings instead of letting them drive my actions blindly.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOD",
+      "order": 7,
+      "text": "I chose a healthy outlet when I felt overwhelmed.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOD",
+      "order": 8,
+      "text": "I forgave myself after a mistake instead of dwelling on it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOD",
+      "order": 9,
+      "text": "I set a boundary that protected my wellbeing.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOD",
+      "order": 10,
+      "text": "I spoke harshly to myself in ways I would not use with others.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOD",
+      "order": 11,
+      "text": "I took time to reflect on what matters most to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOD",
+      "order": 12,
+      "text": "I reached out for support when I needed it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOD",
+      "order": 13,
+      "text": "I made a choice that aligned with my long-term wellbeing over short-term comfort.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOD",
+      "order": 14,
+      "text": "I noticed when I was running on empty and adjusted before burning out.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOD",
+      "order": 15,
+      "text": "I ignored warning signs that I was overstressed or depleted.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOST",
+      "order": 1,
+      "text": "I followed through on something I agreed to take care of at home for my preschooler.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOST",
+      "order": 2,
+      "text": "I helped at home with what can you help with? without always waiting to be asked.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOST",
+      "order": 3,
+      "text": "I cared for belongings or did simple maintenance to keep our home working well for my preschooler.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOST",
+      "order": 4,
+      "text": "I reset or organised a shared space so our home felt clean and comfortable for my preschooler.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOST",
+      "order": 5,
+      "text": "I neglected a household issue at home or left a shared space worse than I found it.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOST",
+      "order": 6,
+      "text": "I put things back where they belong after using them.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOST",
+      "order": 7,
+      "text": "I shared responsibility for meals or household routines.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOST",
+      "order": 8,
+      "text": "I fixed or reported something broken instead of leaving it for someone else.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOST",
+      "order": 9,
+      "text": "I made our home feel welcoming for the people who live there or visit.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOST",
+      "order": 10,
+      "text": "I left messes for others to clean up when I could have handled them.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOST",
+      "order": 11,
+      "text": "I prepared ahead so mornings or busy days ran more smoothly at home.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOST",
+      "order": 12,
+      "text": "I respected shared spaces and other people's belongings.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOST",
+      "order": 13,
+      "text": "I completed a household task I had been putting off.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOST",
+      "order": 14,
+      "text": "I contributed to making home a calm, orderly place.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOST",
+      "order": 15,
+      "text": "I neglected basic upkeep that I knew needed doing.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HORN",
+      "order": 1,
+      "text": "I had a clear sense of one priority or challenge I am working towards for my preschooler and our family.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HORN",
+      "order": 2,
+      "text": "I acted on an important priority for my preschooler or our family rather than only thinking about it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HORN",
+      "order": 3,
+      "text": "I returned to an important goal for my preschooler or our family after a setback and tried again.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HORN",
+      "order": 4,
+      "text": "I asked for or used feedback to learn and improve in how I support my preschooler.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HORN",
+      "order": 5,
+      "text": "I avoided feedback or a challenging step that would have helped me grow as a parent to my preschooler.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HORN",
+      "order": 6,
+      "text": "I broke a large goal into steps I could act on this week.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HORN",
+      "order": 7,
+      "text": "I learned something new that supports a goal I care about.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HORN",
+      "order": 8,
+      "text": "I measured progress on something important to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HORN",
+      "order": 9,
+      "text": "I said no to distractions that would pull me off course.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HORN",
+      "order": 10,
+      "text": "I gave up on a goal as soon as it got difficult.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HORN",
+      "order": 11,
+      "text": "I asked for help or advice to improve in an area that matters to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HORN",
+      "order": 12,
+      "text": "I finished something I started even when motivation dropped.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HORN",
+      "order": 13,
+      "text": "I reviewed whether my daily actions matched my stated priorities.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HORN",
+      "order": 14,
+      "text": "I took a small risk that could help me grow.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HORN",
+      "order": 15,
+      "text": "I avoided trying because I feared I would not succeed.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOK",
+      "order": 1,
+      "text": "I planned my time so there was room for important things, including time with my preschooler.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOK",
+      "order": 2,
+      "text": "I focused on one task at a time without unnecessary distractions while caring for my preschooler.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOK",
+      "order": 3,
+      "text": "I finished something important I started for my preschooler or our home instead of leaving it undone.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOK",
+      "order": 4,
+      "text": "I gave my full attention to my preschooler or the person in front of me rather than splitting my presence.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOK",
+      "order": 5,
+      "text": "I was unnecessarily impatient with my preschooler when I needed to wait.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOK",
+      "order": 6,
+      "text": "I started my day with a clear sense of what mattered most.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOK",
+      "order": 7,
+      "text": "I batch similar tasks to use my time more efficiently.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOK",
+      "order": 8,
+      "text": "I ended the day without leaving priorities I could have addressed undone.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOK",
+      "order": 9,
+      "text": "I protected focused time from unnecessary interruptions.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOK",
+      "order": 10,
+      "text": "I lost track of time on activities that did not matter to me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOK",
+      "order": 11,
+      "text": "I arrived on time for commitments I had made.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOK",
+      "order": 12,
+      "text": "I built in buffer time so delays did not derail my whole day.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOK",
+      "order": 13,
+      "text": "I chose presence over multitasking when someone needed my attention.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOK",
+      "order": 14,
+      "text": "I reviewed how I spent my time and adjusted for the next day.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1G",
+      "hillCode": "HOOK",
+      "order": 15,
+      "text": "I let urgent but unimportant tasks crowd out what truly mattered.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOPE",
+      "order": 1,
+      "text": "I spent warm, face-to-face time with my child starting school, followed their lead in play, and welcomed them when we reunited.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOPE",
+      "order": 2,
+      "text": "I listened carefully before responding to my child starting school and expressed appreciation for how they communicate.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOPE",
+      "order": 3,
+      "text": "I did something kind for my child starting school or let them see me do a caring act without expecting anything in return.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOPE",
+      "order": 4,
+      "text": "I checked in on my child starting school when I thought they might need encouragement or support.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOPE",
+      "order": 5,
+      "text": "I avoided apologizing or taking the first step to reconnect when I knew my child starting school and I needed repair.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOPE",
+      "order": 6,
+      "text": "I made time for meaningful conversation with someone close to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOPE",
+      "order": 7,
+      "text": "I apologised when I knew I had hurt someone's feelings.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOPE",
+      "order": 8,
+      "text": "I celebrated someone else's success without comparing myself.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOPE",
+      "order": 9,
+      "text": "I spoke respectfully even when I disagreed.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOPE",
+      "order": 10,
+      "text": "I ignored messages or calls from people who matter to me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOPE",
+      "order": 11,
+      "text": "I showed patience when someone needed extra support.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOPE",
+      "order": 12,
+      "text": "I expressed appreciation to someone who helps me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOPE",
+      "order": 13,
+      "text": "I kept a commitment I made to a family member or friend.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOPE",
+      "order": 14,
+      "text": "I worked through a disagreement without shutting people out.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOPE",
+      "order": 15,
+      "text": "I was dismissive when someone tried to share with me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HONE",
+      "order": 1,
+      "text": "I gave my child starting school and myself enough sleep and rest.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HONE",
+      "order": 2,
+      "text": "I moved my body through physical activity with my child starting school or on my own most days.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HONE",
+      "order": 3,
+      "text": "I kept myself and my child starting school adequately hydrated and nourished with regular meals.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HONE",
+      "order": 4,
+      "text": "I noticed early signs of stress while caring for my child starting school and used a healthy reset before it built up.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HONE",
+      "order": 5,
+      "text": "I neglected long-term health prevention for myself even when I knew a small step would help future me care for my child starting school.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HONE",
+      "order": 6,
+      "text": "I ate meals that gave me steady energy through the day.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HONE",
+      "order": 7,
+      "text": "I noticed early signs of stress and responded before they built up.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HONE",
+      "order": 8,
+      "text": "I limited habits that I know harm my health.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HONE",
+      "order": 9,
+      "text": "I took breaks when my body or mind needed rest.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HONE",
+      "order": 10,
+      "text": "I skipped meals or sleep when I knew I needed them.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HONE",
+      "order": 11,
+      "text": "I chose water or nourishing drinks over excessive caffeine or sugar.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HONE",
+      "order": 12,
+      "text": "I stretched or moved after long periods of sitting.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HONE",
+      "order": 13,
+      "text": "I followed through on a health-related goal I had set.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HONE",
+      "order": 14,
+      "text": "I treated illness or pain with appropriate care instead of ignoring it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HONE",
+      "order": 15,
+      "text": "I pushed through exhaustion when rest was the better choice.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOLD",
+      "order": 1,
+      "text": "I tracked where our household money went, including spending related to my child starting school.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOLD",
+      "order": 2,
+      "text": "I paused before a purchase and considered whether it was worth the cost for our family.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOLD",
+      "order": 3,
+      "text": "I protected money I had decided to save for our family's future needs.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOLD",
+      "order": 4,
+      "text": "I prepared ahead for future expenses our family expects, including costs related to my child starting school.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOLD",
+      "order": 5,
+      "text": "I spent on our household without thinking about whether it matched my priorities.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOLD",
+      "order": 6,
+      "text": "I tracked where my money was going for important expenses.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOLD",
+      "order": 7,
+      "text": "I delayed a purchase when I was not sure I could afford it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOLD",
+      "order": 8,
+      "text": "I put something aside for a future need or goal.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOLD",
+      "order": 9,
+      "text": "I compared prices or options before a significant purchase.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOLD",
+      "order": 10,
+      "text": "I made impulse purchases I later regretted.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOLD",
+      "order": 11,
+      "text": "I paid bills or obligations on time.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOLD",
+      "order": 12,
+      "text": "I talked openly about money decisions with people who should be involved.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOLD",
+      "order": 13,
+      "text": "I used a budget or spending plan to guide my choices.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOLD",
+      "order": 14,
+      "text": "I avoided unnecessary debt or high-interest borrowing.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOLD",
+      "order": 15,
+      "text": "I spent without thinking about whether it matched my priorities.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOD",
+      "order": 1,
+      "text": "I paused before acting when my emotions were strong while caring for my child starting school and noticed how I was feeling.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOD",
+      "order": 2,
+      "text": "I kept a commitment or promise I made to my child starting school or our family.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOD",
+      "order": 3,
+      "text": "My actions matched the values I want my child starting school to see me live by.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOD",
+      "order": 4,
+      "text": "I paused before reacting when I felt overwhelmed caring for my child starting school and used a healthy outlet to recover.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOD",
+      "order": 5,
+      "text": "I let personal boundaries slip when keeping them would have been inconvenient for my child starting school or me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOD",
+      "order": 6,
+      "text": "I named my feelings instead of letting them drive my actions blindly.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOD",
+      "order": 7,
+      "text": "I chose a healthy outlet when I felt overwhelmed.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOD",
+      "order": 8,
+      "text": "I forgave myself after a mistake instead of dwelling on it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOD",
+      "order": 9,
+      "text": "I set a boundary that protected my wellbeing.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOD",
+      "order": 10,
+      "text": "I spoke harshly to myself in ways I would not use with others.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOD",
+      "order": 11,
+      "text": "I took time to reflect on what matters most to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOD",
+      "order": 12,
+      "text": "I reached out for support when I needed it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOD",
+      "order": 13,
+      "text": "I made a choice that aligned with my long-term wellbeing over short-term comfort.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOD",
+      "order": 14,
+      "text": "I noticed when I was running on empty and adjusted before burning out.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOD",
+      "order": 15,
+      "text": "I ignored warning signs that I was overstressed or depleted.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOST",
+      "order": 1,
+      "text": "I followed through on something I agreed to take care of at home for my child starting school.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOST",
+      "order": 2,
+      "text": "I helped at home with see it. do it. without always waiting to be asked.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOST",
+      "order": 3,
+      "text": "I cared for belongings or did simple maintenance to keep our home working well for my child starting school.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOST",
+      "order": 4,
+      "text": "I reset or organised a shared space so our home felt clean and comfortable for my child starting school.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOST",
+      "order": 5,
+      "text": "I neglected a household issue at home or left a shared space worse than I found it.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOST",
+      "order": 6,
+      "text": "I put things back where they belong after using them.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOST",
+      "order": 7,
+      "text": "I shared responsibility for meals or household routines.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOST",
+      "order": 8,
+      "text": "I fixed or reported something broken instead of leaving it for someone else.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOST",
+      "order": 9,
+      "text": "I made our home feel welcoming for the people who live there or visit.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOST",
+      "order": 10,
+      "text": "I left messes for others to clean up when I could have handled them.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOST",
+      "order": 11,
+      "text": "I prepared ahead so mornings or busy days ran more smoothly at home.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOST",
+      "order": 12,
+      "text": "I respected shared spaces and other people's belongings.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOST",
+      "order": 13,
+      "text": "I completed a household task I had been putting off.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOST",
+      "order": 14,
+      "text": "I contributed to making home a calm, orderly place.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOST",
+      "order": 15,
+      "text": "I neglected basic upkeep that I knew needed doing.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HORN",
+      "order": 1,
+      "text": "I had a clear sense of one priority or challenge I am working towards for my child starting school and our family.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HORN",
+      "order": 2,
+      "text": "I acted on an important priority for my child starting school or our family rather than only thinking about it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HORN",
+      "order": 3,
+      "text": "I returned to an important goal for my child starting school or our family after a setback and tried again.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HORN",
+      "order": 4,
+      "text": "I asked for or used feedback to learn and improve in how I support my child starting school.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HORN",
+      "order": 5,
+      "text": "I avoided feedback or a challenging step that would have helped me grow as a parent to my child starting school.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HORN",
+      "order": 6,
+      "text": "I broke a large goal into steps I could act on this week.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HORN",
+      "order": 7,
+      "text": "I learned something new that supports a goal I care about.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HORN",
+      "order": 8,
+      "text": "I measured progress on something important to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HORN",
+      "order": 9,
+      "text": "I said no to distractions that would pull me off course.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HORN",
+      "order": 10,
+      "text": "I gave up on a goal as soon as it got difficult.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HORN",
+      "order": 11,
+      "text": "I asked for help or advice to improve in an area that matters to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HORN",
+      "order": 12,
+      "text": "I finished something I started even when motivation dropped.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HORN",
+      "order": 13,
+      "text": "I reviewed whether my daily actions matched my stated priorities.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HORN",
+      "order": 14,
+      "text": "I took a small risk that could help me grow.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HORN",
+      "order": 15,
+      "text": "I avoided trying because I feared I would not succeed.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOK",
+      "order": 1,
+      "text": "I planned my time so there was room for important things, including time with my child starting school.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOK",
+      "order": 2,
+      "text": "I focused on one task at a time without unnecessary distractions while caring for my child starting school.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOK",
+      "order": 3,
+      "text": "I finished something important I started for my child starting school or our home instead of leaving it undone.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOK",
+      "order": 4,
+      "text": "I gave my full attention to my child starting school or the person in front of me rather than splitting my presence.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOK",
+      "order": 5,
+      "text": "I was unnecessarily impatient with my child starting school when I needed to wait.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOK",
+      "order": 6,
+      "text": "I started my day with a clear sense of what mattered most.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOK",
+      "order": 7,
+      "text": "I batch similar tasks to use my time more efficiently.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOK",
+      "order": 8,
+      "text": "I ended the day without leaving priorities I could have addressed undone.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOK",
+      "order": 9,
+      "text": "I protected focused time from unnecessary interruptions.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOK",
+      "order": 10,
+      "text": "I lost track of time on activities that did not matter to me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOK",
+      "order": 11,
+      "text": "I arrived on time for commitments I had made.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOK",
+      "order": 12,
+      "text": "I built in buffer time so delays did not derail my whole day.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOK",
+      "order": 13,
+      "text": "I chose presence over multitasking when someone needed my attention.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOK",
+      "order": 14,
+      "text": "I reviewed how I spent my time and adjusted for the next day.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "S1R",
+      "hillCode": "HOOK",
+      "order": 15,
+      "text": "I let urgent but unimportant tasks crowd out what truly mattered.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOPE",
+      "order": 1,
+      "text": "I spent warm, face-to-face time with my school-age child, followed their lead in play, and welcomed them when we reunited.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOPE",
+      "order": 2,
+      "text": "I listened carefully before responding to my school-age child and expressed appreciation for how they communicate.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOPE",
+      "order": 3,
+      "text": "I did something kind for my school-age child or let them see me do a caring act without expecting anything in return.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOPE",
+      "order": 4,
+      "text": "I checked in on my school-age child when I thought they might need encouragement or support.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOPE",
+      "order": 5,
+      "text": "I avoided apologizing or taking the first step to reconnect when I knew my school-age child and I needed repair.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOPE",
+      "order": 6,
+      "text": "I made time for meaningful conversation with someone close to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOPE",
+      "order": 7,
+      "text": "I apologised when I knew I had hurt someone's feelings.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOPE",
+      "order": 8,
+      "text": "I celebrated someone else's success without comparing myself.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOPE",
+      "order": 9,
+      "text": "I spoke respectfully even when I disagreed.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOPE",
+      "order": 10,
+      "text": "I ignored messages or calls from people who matter to me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOPE",
+      "order": 11,
+      "text": "I showed patience when someone needed extra support.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOPE",
+      "order": 12,
+      "text": "I expressed appreciation to someone who helps me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOPE",
+      "order": 13,
+      "text": "I kept a commitment I made to a family member or friend.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOPE",
+      "order": 14,
+      "text": "I worked through a disagreement without shutting people out.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOPE",
+      "order": 15,
+      "text": "I was dismissive when someone tried to share with me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HONE",
+      "order": 1,
+      "text": "I gave my school-age child and myself enough sleep and rest.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HONE",
+      "order": 2,
+      "text": "I moved my body through physical activity with my school-age child or on my own most days.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HONE",
+      "order": 3,
+      "text": "I kept myself and my school-age child adequately hydrated and nourished with regular meals.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HONE",
+      "order": 4,
+      "text": "I noticed early signs of stress while caring for my school-age child and used a healthy reset before it built up.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HONE",
+      "order": 5,
+      "text": "I neglected long-term health prevention for myself even when I knew a small step would help future me care for my school-age child.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HONE",
+      "order": 6,
+      "text": "I ate meals that gave me steady energy through the day.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HONE",
+      "order": 7,
+      "text": "I noticed early signs of stress and responded before they built up.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HONE",
+      "order": 8,
+      "text": "I limited habits that I know harm my health.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HONE",
+      "order": 9,
+      "text": "I took breaks when my body or mind needed rest.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HONE",
+      "order": 10,
+      "text": "I skipped meals or sleep when I knew I needed them.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HONE",
+      "order": 11,
+      "text": "I chose water or nourishing drinks over excessive caffeine or sugar.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HONE",
+      "order": 12,
+      "text": "I stretched or moved after long periods of sitting.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HONE",
+      "order": 13,
+      "text": "I followed through on a health-related goal I had set.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HONE",
+      "order": 14,
+      "text": "I treated illness or pain with appropriate care instead of ignoring it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HONE",
+      "order": 15,
+      "text": "I pushed through exhaustion when rest was the better choice.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOLD",
+      "order": 1,
+      "text": "I tracked where our household money went, including spending related to my school-age child.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOLD",
+      "order": 2,
+      "text": "I paused before a purchase and considered whether it was worth the cost for our family.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOLD",
+      "order": 3,
+      "text": "I protected money I had decided to save for our family's future needs.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOLD",
+      "order": 4,
+      "text": "I prepared ahead for future expenses our family expects, including costs related to my school-age child.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOLD",
+      "order": 5,
+      "text": "I spent on our household without thinking about whether it matched my priorities.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOLD",
+      "order": 6,
+      "text": "I tracked where my money was going for important expenses.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOLD",
+      "order": 7,
+      "text": "I delayed a purchase when I was not sure I could afford it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOLD",
+      "order": 8,
+      "text": "I put something aside for a future need or goal.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOLD",
+      "order": 9,
+      "text": "I compared prices or options before a significant purchase.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOLD",
+      "order": 10,
+      "text": "I made impulse purchases I later regretted.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOLD",
+      "order": 11,
+      "text": "I paid bills or obligations on time.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOLD",
+      "order": 12,
+      "text": "I talked openly about money decisions with people who should be involved.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOLD",
+      "order": 13,
+      "text": "I used a budget or spending plan to guide my choices.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOLD",
+      "order": 14,
+      "text": "I avoided unnecessary debt or high-interest borrowing.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOLD",
+      "order": 15,
+      "text": "I spent without thinking about whether it matched my priorities.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOD",
+      "order": 1,
+      "text": "I paused before acting when my emotions were strong while caring for my school-age child and noticed how I was feeling.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOD",
+      "order": 2,
+      "text": "I kept a commitment or promise I made to my school-age child or our family.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOD",
+      "order": 3,
+      "text": "My actions matched the values I want my school-age child to see me live by.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOD",
+      "order": 4,
+      "text": "I paused before reacting when I felt overwhelmed caring for my school-age child and used a healthy outlet to recover.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOD",
+      "order": 5,
+      "text": "I let personal boundaries slip when keeping them would have been inconvenient for my school-age child or me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOD",
+      "order": 6,
+      "text": "I named my feelings instead of letting them drive my actions blindly.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOD",
+      "order": 7,
+      "text": "I chose a healthy outlet when I felt overwhelmed.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOD",
+      "order": 8,
+      "text": "I forgave myself after a mistake instead of dwelling on it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOD",
+      "order": 9,
+      "text": "I set a boundary that protected my wellbeing.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOD",
+      "order": 10,
+      "text": "I spoke harshly to myself in ways I would not use with others.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOD",
+      "order": 11,
+      "text": "I took time to reflect on what matters most to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOD",
+      "order": 12,
+      "text": "I reached out for support when I needed it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOD",
+      "order": 13,
+      "text": "I made a choice that aligned with my long-term wellbeing over short-term comfort.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOD",
+      "order": 14,
+      "text": "I noticed when I was running on empty and adjusted before burning out.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOD",
+      "order": 15,
+      "text": "I ignored warning signs that I was overstressed or depleted.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOST",
+      "order": 1,
+      "text": "I followed through on something I agreed to take care of at home for my school-age child.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOST",
+      "order": 2,
+      "text": "I helped at home with see it. do it. without always waiting to be asked.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOST",
+      "order": 3,
+      "text": "I cared for belongings or did simple maintenance to keep our home working well for my school-age child.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOST",
+      "order": 4,
+      "text": "I reset or organised a shared space so our home felt clean and comfortable for my school-age child.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOST",
+      "order": 5,
+      "text": "I neglected a household issue at home or left a shared space worse than I found it.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOST",
+      "order": 6,
+      "text": "I put things back where they belong after using them.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOST",
+      "order": 7,
+      "text": "I shared responsibility for meals or household routines.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOST",
+      "order": 8,
+      "text": "I fixed or reported something broken instead of leaving it for someone else.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOST",
+      "order": 9,
+      "text": "I made our home feel welcoming for the people who live there or visit.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOST",
+      "order": 10,
+      "text": "I left messes for others to clean up when I could have handled them.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOST",
+      "order": 11,
+      "text": "I prepared ahead so mornings or busy days ran more smoothly at home.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOST",
+      "order": 12,
+      "text": "I respected shared spaces and other people's belongings.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOST",
+      "order": 13,
+      "text": "I completed a household task I had been putting off.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOST",
+      "order": 14,
+      "text": "I contributed to making home a calm, orderly place.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOST",
+      "order": 15,
+      "text": "I neglected basic upkeep that I knew needed doing.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HORN",
+      "order": 1,
+      "text": "I had a clear sense of one priority or challenge I am working towards for my school-age child and our family.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HORN",
+      "order": 2,
+      "text": "I acted on an important priority for my school-age child or our family rather than only thinking about it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HORN",
+      "order": 3,
+      "text": "I returned to an important goal for my school-age child or our family after a setback and tried again.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HORN",
+      "order": 4,
+      "text": "I asked for or used feedback to learn and improve in how I support my school-age child.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HORN",
+      "order": 5,
+      "text": "I avoided feedback or a challenging step that would have helped me grow as a parent to my school-age child.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HORN",
+      "order": 6,
+      "text": "I broke a large goal into steps I could act on this week.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HORN",
+      "order": 7,
+      "text": "I learned something new that supports a goal I care about.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HORN",
+      "order": 8,
+      "text": "I measured progress on something important to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HORN",
+      "order": 9,
+      "text": "I said no to distractions that would pull me off course.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HORN",
+      "order": 10,
+      "text": "I gave up on a goal as soon as it got difficult.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HORN",
+      "order": 11,
+      "text": "I asked for help or advice to improve in an area that matters to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HORN",
+      "order": 12,
+      "text": "I finished something I started even when motivation dropped.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HORN",
+      "order": 13,
+      "text": "I reviewed whether my daily actions matched my stated priorities.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HORN",
+      "order": 14,
+      "text": "I took a small risk that could help me grow.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HORN",
+      "order": 15,
+      "text": "I avoided trying because I feared I would not succeed.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOK",
+      "order": 1,
+      "text": "I planned my time so there was room for important things, including time with my school-age child.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOK",
+      "order": 2,
+      "text": "I focused on one task at a time without unnecessary distractions while caring for my school-age child.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOK",
+      "order": 3,
+      "text": "I finished something important I started for my school-age child or our home instead of leaving it undone.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOK",
+      "order": 4,
+      "text": "I gave my full attention to my school-age child or the person in front of me rather than splitting my presence.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOK",
+      "order": 5,
+      "text": "I was unnecessarily impatient with my school-age child when I needed to wait.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOK",
+      "order": 6,
+      "text": "I started my day with a clear sense of what mattered most.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOK",
+      "order": 7,
+      "text": "I batch similar tasks to use my time more efficiently.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOK",
+      "order": 8,
+      "text": "I ended the day without leaving priorities I could have addressed undone.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOK",
+      "order": 9,
+      "text": "I protected focused time from unnecessary interruptions.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOK",
+      "order": 10,
+      "text": "I lost track of time on activities that did not matter to me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOK",
+      "order": 11,
+      "text": "I arrived on time for commitments I had made.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOK",
+      "order": 12,
+      "text": "I built in buffer time so delays did not derail my whole day.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOK",
+      "order": 13,
+      "text": "I chose presence over multitasking when someone needed my attention.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOK",
+      "order": 14,
+      "text": "I reviewed how I spent my time and adjusted for the next day.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "A2",
+      "hillCode": "HOOK",
+      "order": 15,
+      "text": "I let urgent but unimportant tasks crowd out what truly mattered.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOPE",
+      "order": 1,
+      "text": "I spent warm, face-to-face time with my tween, followed their lead in play, and welcomed them when we reunited.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOPE",
+      "order": 2,
+      "text": "I listened carefully before responding to my tween and expressed appreciation for how they communicate.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOPE",
+      "order": 3,
+      "text": "I did something kind for my tween or let them see me do a caring act without expecting anything in return.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOPE",
+      "order": 4,
+      "text": "I checked in on my tween when I thought they might need encouragement or support.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOPE",
+      "order": 5,
+      "text": "I avoided apologizing or taking the first step to reconnect when I knew my tween and I needed repair.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOPE",
+      "order": 6,
+      "text": "I made time for meaningful conversation with someone close to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOPE",
+      "order": 7,
+      "text": "I apologised when I knew I had hurt someone's feelings.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOPE",
+      "order": 8,
+      "text": "I celebrated someone else's success without comparing myself.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOPE",
+      "order": 9,
+      "text": "I spoke respectfully even when I disagreed.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOPE",
+      "order": 10,
+      "text": "I ignored messages or calls from people who matter to me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOPE",
+      "order": 11,
+      "text": "I showed patience when someone needed extra support.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOPE",
+      "order": 12,
+      "text": "I expressed appreciation to someone who helps me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOPE",
+      "order": 13,
+      "text": "I kept a commitment I made to a family member or friend.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOPE",
+      "order": 14,
+      "text": "I worked through a disagreement without shutting people out.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOPE",
+      "order": 15,
+      "text": "I was dismissive when someone tried to share with me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HONE",
+      "order": 1,
+      "text": "I gave my tween and myself enough sleep and rest.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HONE",
+      "order": 2,
+      "text": "I moved my body through physical activity with my tween or on my own most days.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HONE",
+      "order": 3,
+      "text": "I kept myself and my tween adequately hydrated and nourished with regular meals.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HONE",
+      "order": 4,
+      "text": "I noticed early signs of stress while caring for my tween and used a healthy reset before it built up.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HONE",
+      "order": 5,
+      "text": "I neglected long-term health prevention for myself even when I knew a small step would help future me care for my tween.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HONE",
+      "order": 6,
+      "text": "I ate meals that gave me steady energy through the day.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HONE",
+      "order": 7,
+      "text": "I noticed early signs of stress and responded before they built up.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HONE",
+      "order": 8,
+      "text": "I limited habits that I know harm my health.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HONE",
+      "order": 9,
+      "text": "I took breaks when my body or mind needed rest.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HONE",
+      "order": 10,
+      "text": "I skipped meals or sleep when I knew I needed them.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HONE",
+      "order": 11,
+      "text": "I chose water or nourishing drinks over excessive caffeine or sugar.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HONE",
+      "order": 12,
+      "text": "I stretched or moved after long periods of sitting.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HONE",
+      "order": 13,
+      "text": "I followed through on a health-related goal I had set.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HONE",
+      "order": 14,
+      "text": "I treated illness or pain with appropriate care instead of ignoring it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HONE",
+      "order": 15,
+      "text": "I pushed through exhaustion when rest was the better choice.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOLD",
+      "order": 1,
+      "text": "I tracked where our household money went, including spending related to my tween.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOLD",
+      "order": 2,
+      "text": "I paused before a purchase and considered whether it was worth the cost for our family.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOLD",
+      "order": 3,
+      "text": "I protected money I had decided to save for our family's future needs.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOLD",
+      "order": 4,
+      "text": "I prepared ahead for future expenses our family expects, including costs related to my tween.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOLD",
+      "order": 5,
+      "text": "I spent on our household without thinking about whether it matched my priorities.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOLD",
+      "order": 6,
+      "text": "I tracked where my money was going for important expenses.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOLD",
+      "order": 7,
+      "text": "I delayed a purchase when I was not sure I could afford it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOLD",
+      "order": 8,
+      "text": "I put something aside for a future need or goal.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOLD",
+      "order": 9,
+      "text": "I compared prices or options before a significant purchase.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOLD",
+      "order": 10,
+      "text": "I made impulse purchases I later regretted.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOLD",
+      "order": 11,
+      "text": "I paid bills or obligations on time.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOLD",
+      "order": 12,
+      "text": "I talked openly about money decisions with people who should be involved.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOLD",
+      "order": 13,
+      "text": "I used a budget or spending plan to guide my choices.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOLD",
+      "order": 14,
+      "text": "I avoided unnecessary debt or high-interest borrowing.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOLD",
+      "order": 15,
+      "text": "I spent without thinking about whether it matched my priorities.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOD",
+      "order": 1,
+      "text": "I paused before acting when my emotions were strong while caring for my tween and noticed how I was feeling.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOD",
+      "order": 2,
+      "text": "I kept a commitment or promise I made to my tween or our family.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOD",
+      "order": 3,
+      "text": "My actions matched the values I want my tween to see me live by.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOD",
+      "order": 4,
+      "text": "I paused before reacting when I felt overwhelmed caring for my tween and used a healthy outlet to recover.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOD",
+      "order": 5,
+      "text": "I let personal boundaries slip when keeping them would have been inconvenient for my tween or me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOD",
+      "order": 6,
+      "text": "I named my feelings instead of letting them drive my actions blindly.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOD",
+      "order": 7,
+      "text": "I chose a healthy outlet when I felt overwhelmed.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOD",
+      "order": 8,
+      "text": "I forgave myself after a mistake instead of dwelling on it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOD",
+      "order": 9,
+      "text": "I set a boundary that protected my wellbeing.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOD",
+      "order": 10,
+      "text": "I spoke harshly to myself in ways I would not use with others.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOD",
+      "order": 11,
+      "text": "I took time to reflect on what matters most to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOD",
+      "order": 12,
+      "text": "I reached out for support when I needed it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOD",
+      "order": 13,
+      "text": "I made a choice that aligned with my long-term wellbeing over short-term comfort.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOD",
+      "order": 14,
+      "text": "I noticed when I was running on empty and adjusted before burning out.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOD",
+      "order": 15,
+      "text": "I ignored warning signs that I was overstressed or depleted.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOST",
+      "order": 1,
+      "text": "I followed through on something I agreed to take care of at home for my tween.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOST",
+      "order": 2,
+      "text": "I helped at home with see it. do it. without always waiting to be asked.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOST",
+      "order": 3,
+      "text": "I cared for belongings or did simple maintenance to keep our home working well for my tween.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOST",
+      "order": 4,
+      "text": "I reset or organised a shared space so our home felt clean and comfortable for my tween.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOST",
+      "order": 5,
+      "text": "I neglected a household issue at home or left a shared space worse than I found it.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOST",
+      "order": 6,
+      "text": "I put things back where they belong after using them.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOST",
+      "order": 7,
+      "text": "I shared responsibility for meals or household routines.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOST",
+      "order": 8,
+      "text": "I fixed or reported something broken instead of leaving it for someone else.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOST",
+      "order": 9,
+      "text": "I made our home feel welcoming for the people who live there or visit.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOST",
+      "order": 10,
+      "text": "I left messes for others to clean up when I could have handled them.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOST",
+      "order": 11,
+      "text": "I prepared ahead so mornings or busy days ran more smoothly at home.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOST",
+      "order": 12,
+      "text": "I respected shared spaces and other people's belongings.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOST",
+      "order": 13,
+      "text": "I completed a household task I had been putting off.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOST",
+      "order": 14,
+      "text": "I contributed to making home a calm, orderly place.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOST",
+      "order": 15,
+      "text": "I neglected basic upkeep that I knew needed doing.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HORN",
+      "order": 1,
+      "text": "I had a clear sense of one priority or challenge I am working towards for my tween and our family.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HORN",
+      "order": 2,
+      "text": "I acted on an important priority for my tween or our family rather than only thinking about it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HORN",
+      "order": 3,
+      "text": "I returned to an important goal for my tween or our family after a setback and tried again.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HORN",
+      "order": 4,
+      "text": "I asked for or used feedback to learn and improve in how I support my tween.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HORN",
+      "order": 5,
+      "text": "I avoided feedback or a challenging step that would have helped me grow as a parent to my tween.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HORN",
+      "order": 6,
+      "text": "I broke a large goal into steps I could act on this week.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HORN",
+      "order": 7,
+      "text": "I learned something new that supports a goal I care about.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HORN",
+      "order": 8,
+      "text": "I measured progress on something important to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HORN",
+      "order": 9,
+      "text": "I said no to distractions that would pull me off course.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HORN",
+      "order": 10,
+      "text": "I gave up on a goal as soon as it got difficult.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HORN",
+      "order": 11,
+      "text": "I asked for help or advice to improve in an area that matters to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HORN",
+      "order": 12,
+      "text": "I finished something I started even when motivation dropped.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HORN",
+      "order": 13,
+      "text": "I reviewed whether my daily actions matched my stated priorities.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HORN",
+      "order": 14,
+      "text": "I took a small risk that could help me grow.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HORN",
+      "order": 15,
+      "text": "I avoided trying because I feared I would not succeed.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOK",
+      "order": 1,
+      "text": "I planned my time so there was room for important things, including time with my tween.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOK",
+      "order": 2,
+      "text": "I focused on one task at a time without unnecessary distractions while caring for my tween.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOK",
+      "order": 3,
+      "text": "I finished something important I started for my tween or our home instead of leaving it undone.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOK",
+      "order": 4,
+      "text": "I gave my full attention to my tween or the person in front of me rather than splitting my presence.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOK",
+      "order": 5,
+      "text": "I was unnecessarily impatient with my tween when I needed to wait.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOK",
+      "order": 6,
+      "text": "I started my day with a clear sense of what mattered most.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOK",
+      "order": 7,
+      "text": "I batch similar tasks to use my time more efficiently.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOK",
+      "order": 8,
+      "text": "I ended the day without leaving priorities I could have addressed undone.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOK",
+      "order": 9,
+      "text": "I protected focused time from unnecessary interruptions.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOK",
+      "order": 10,
+      "text": "I lost track of time on activities that did not matter to me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOK",
+      "order": 11,
+      "text": "I arrived on time for commitments I had made.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOK",
+      "order": 12,
+      "text": "I built in buffer time so delays did not derail my whole day.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOK",
+      "order": 13,
+      "text": "I chose presence over multitasking when someone needed my attention.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOK",
+      "order": 14,
+      "text": "I reviewed how I spent my time and adjusted for the next day.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "B3",
+      "hillCode": "HOOK",
+      "order": 15,
+      "text": "I let urgent but unimportant tasks crowd out what truly mattered.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOPE",
+      "order": 1,
+      "text": "I spent warm, face-to-face time with my teenager, followed their lead in play, and welcomed them when we reunited.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOPE",
+      "order": 2,
+      "text": "I listened carefully before responding to my teenager and expressed appreciation for how they communicate.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOPE",
+      "order": 3,
+      "text": "I did something kind for my teenager or let them see me do a caring act without expecting anything in return.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOPE",
+      "order": 4,
+      "text": "I checked in on my teenager when I thought they might need encouragement or support.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOPE",
+      "order": 5,
+      "text": "I avoided apologizing or taking the first step to reconnect when I knew my teenager and I needed repair.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOPE",
+      "order": 6,
+      "text": "I made time for meaningful conversation with someone close to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOPE",
+      "order": 7,
+      "text": "I apologised when I knew I had hurt someone's feelings.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOPE",
+      "order": 8,
+      "text": "I celebrated someone else's success without comparing myself.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOPE",
+      "order": 9,
+      "text": "I spoke respectfully even when I disagreed.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOPE",
+      "order": 10,
+      "text": "I ignored messages or calls from people who matter to me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOPE",
+      "order": 11,
+      "text": "I showed patience when someone needed extra support.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOPE",
+      "order": 12,
+      "text": "I expressed appreciation to someone who helps me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOPE",
+      "order": 13,
+      "text": "I kept a commitment I made to a family member or friend.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOPE",
+      "order": 14,
+      "text": "I worked through a disagreement without shutting people out.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOPE",
+      "order": 15,
+      "text": "I was dismissive when someone tried to share with me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HONE",
+      "order": 1,
+      "text": "I gave my teenager and myself enough sleep and rest.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HONE",
+      "order": 2,
+      "text": "I moved my body through physical activity with my teenager or on my own most days.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HONE",
+      "order": 3,
+      "text": "I kept myself and my teenager adequately hydrated and nourished with regular meals.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HONE",
+      "order": 4,
+      "text": "I noticed early signs of stress while caring for my teenager and used a healthy reset before it built up.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HONE",
+      "order": 5,
+      "text": "I neglected long-term health prevention for myself even when I knew a small step would help future me care for my teenager.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HONE",
+      "order": 6,
+      "text": "I ate meals that gave me steady energy through the day.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HONE",
+      "order": 7,
+      "text": "I noticed early signs of stress and responded before they built up.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HONE",
+      "order": 8,
+      "text": "I limited habits that I know harm my health.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HONE",
+      "order": 9,
+      "text": "I took breaks when my body or mind needed rest.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HONE",
+      "order": 10,
+      "text": "I skipped meals or sleep when I knew I needed them.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HONE",
+      "order": 11,
+      "text": "I chose water or nourishing drinks over excessive caffeine or sugar.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HONE",
+      "order": 12,
+      "text": "I stretched or moved after long periods of sitting.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HONE",
+      "order": 13,
+      "text": "I followed through on a health-related goal I had set.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HONE",
+      "order": 14,
+      "text": "I treated illness or pain with appropriate care instead of ignoring it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HONE",
+      "order": 15,
+      "text": "I pushed through exhaustion when rest was the better choice.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOLD",
+      "order": 1,
+      "text": "I tracked where our household money went, including spending related to my teenager.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOLD",
+      "order": 2,
+      "text": "I paused before a purchase and considered whether it was worth the cost for our family.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOLD",
+      "order": 3,
+      "text": "I protected money I had decided to save for our family's future needs.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOLD",
+      "order": 4,
+      "text": "I prepared ahead for future expenses our family expects, including costs related to my teenager.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOLD",
+      "order": 5,
+      "text": "I spent on our household without thinking about whether it matched my priorities.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOLD",
+      "order": 6,
+      "text": "I tracked where my money was going for important expenses.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOLD",
+      "order": 7,
+      "text": "I delayed a purchase when I was not sure I could afford it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOLD",
+      "order": 8,
+      "text": "I put something aside for a future need or goal.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOLD",
+      "order": 9,
+      "text": "I compared prices or options before a significant purchase.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOLD",
+      "order": 10,
+      "text": "I made impulse purchases I later regretted.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOLD",
+      "order": 11,
+      "text": "I paid bills or obligations on time.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOLD",
+      "order": 12,
+      "text": "I talked openly about money decisions with people who should be involved.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOLD",
+      "order": 13,
+      "text": "I used a budget or spending plan to guide my choices.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOLD",
+      "order": 14,
+      "text": "I avoided unnecessary debt or high-interest borrowing.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOLD",
+      "order": 15,
+      "text": "I spent without thinking about whether it matched my priorities.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOD",
+      "order": 1,
+      "text": "I paused before acting when my emotions were strong while caring for my teenager and noticed how I was feeling.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOD",
+      "order": 2,
+      "text": "I kept a commitment or promise I made to my teenager or our family.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOD",
+      "order": 3,
+      "text": "My actions matched the values I want my teenager to see me live by.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOD",
+      "order": 4,
+      "text": "I paused before reacting when I felt overwhelmed caring for my teenager and used a healthy outlet to recover.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOD",
+      "order": 5,
+      "text": "I let personal boundaries slip when keeping them would have been inconvenient for my teenager or me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOD",
+      "order": 6,
+      "text": "I named my feelings instead of letting them drive my actions blindly.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOD",
+      "order": 7,
+      "text": "I chose a healthy outlet when I felt overwhelmed.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOD",
+      "order": 8,
+      "text": "I forgave myself after a mistake instead of dwelling on it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOD",
+      "order": 9,
+      "text": "I set a boundary that protected my wellbeing.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOD",
+      "order": 10,
+      "text": "I spoke harshly to myself in ways I would not use with others.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOD",
+      "order": 11,
+      "text": "I took time to reflect on what matters most to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOD",
+      "order": 12,
+      "text": "I reached out for support when I needed it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOD",
+      "order": 13,
+      "text": "I made a choice that aligned with my long-term wellbeing over short-term comfort.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOD",
+      "order": 14,
+      "text": "I noticed when I was running on empty and adjusted before burning out.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOD",
+      "order": 15,
+      "text": "I ignored warning signs that I was overstressed or depleted.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOST",
+      "order": 1,
+      "text": "I followed through on something I agreed to take care of at home for my teenager.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOST",
+      "order": 2,
+      "text": "I helped at home with see it. do it. without always waiting to be asked.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOST",
+      "order": 3,
+      "text": "I cared for belongings or did simple maintenance to keep our home working well for my teenager.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOST",
+      "order": 4,
+      "text": "I reset or organised a shared space so our home felt clean and comfortable for my teenager.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOST",
+      "order": 5,
+      "text": "I neglected a household issue at home or left a shared space worse than I found it.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOST",
+      "order": 6,
+      "text": "I put things back where they belong after using them.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOST",
+      "order": 7,
+      "text": "I shared responsibility for meals or household routines.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOST",
+      "order": 8,
+      "text": "I fixed or reported something broken instead of leaving it for someone else.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOST",
+      "order": 9,
+      "text": "I made our home feel welcoming for the people who live there or visit.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOST",
+      "order": 10,
+      "text": "I left messes for others to clean up when I could have handled them.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOST",
+      "order": 11,
+      "text": "I prepared ahead so mornings or busy days ran more smoothly at home.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOST",
+      "order": 12,
+      "text": "I respected shared spaces and other people's belongings.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOST",
+      "order": 13,
+      "text": "I completed a household task I had been putting off.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOST",
+      "order": 14,
+      "text": "I contributed to making home a calm, orderly place.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOST",
+      "order": 15,
+      "text": "I neglected basic upkeep that I knew needed doing.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HORN",
+      "order": 1,
+      "text": "I had a clear sense of one priority or challenge I am working towards for my teenager and our family.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HORN",
+      "order": 2,
+      "text": "I acted on an important priority for my teenager or our family rather than only thinking about it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HORN",
+      "order": 3,
+      "text": "I returned to an important goal for my teenager or our family after a setback and tried again.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HORN",
+      "order": 4,
+      "text": "I asked for or used feedback to learn and improve in how I support my teenager.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HORN",
+      "order": 5,
+      "text": "I avoided feedback or a challenging step that would have helped me grow as a parent to my teenager.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HORN",
+      "order": 6,
+      "text": "I broke a large goal into steps I could act on this week.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HORN",
+      "order": 7,
+      "text": "I learned something new that supports a goal I care about.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HORN",
+      "order": 8,
+      "text": "I measured progress on something important to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HORN",
+      "order": 9,
+      "text": "I said no to distractions that would pull me off course.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HORN",
+      "order": 10,
+      "text": "I gave up on a goal as soon as it got difficult.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HORN",
+      "order": 11,
+      "text": "I asked for help or advice to improve in an area that matters to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HORN",
+      "order": 12,
+      "text": "I finished something I started even when motivation dropped.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HORN",
+      "order": 13,
+      "text": "I reviewed whether my daily actions matched my stated priorities.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HORN",
+      "order": 14,
+      "text": "I took a small risk that could help me grow.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HORN",
+      "order": 15,
+      "text": "I avoided trying because I feared I would not succeed.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOK",
+      "order": 1,
+      "text": "I planned my time so there was room for important things, including time with my teenager.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOK",
+      "order": 2,
+      "text": "I focused on one task at a time without unnecessary distractions while caring for my teenager.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOK",
+      "order": 3,
+      "text": "I finished something important I started for my teenager or our home instead of leaving it undone.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOK",
+      "order": 4,
+      "text": "I gave my full attention to my teenager or the person in front of me rather than splitting my presence.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOK",
+      "order": 5,
+      "text": "I was unnecessarily impatient with my teenager when I needed to wait.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOK",
+      "order": 6,
+      "text": "I started my day with a clear sense of what mattered most.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOK",
+      "order": 7,
+      "text": "I batch similar tasks to use my time more efficiently.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOK",
+      "order": 8,
+      "text": "I ended the day without leaving priorities I could have addressed undone.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOK",
+      "order": 9,
+      "text": "I protected focused time from unnecessary interruptions.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOK",
+      "order": 10,
+      "text": "I lost track of time on activities that did not matter to me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOK",
+      "order": 11,
+      "text": "I arrived on time for commitments I had made.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOK",
+      "order": 12,
+      "text": "I built in buffer time so delays did not derail my whole day.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOK",
+      "order": 13,
+      "text": "I chose presence over multitasking when someone needed my attention.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOK",
+      "order": 14,
+      "text": "I reviewed how I spent my time and adjusted for the next day.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "C4",
+      "hillCode": "HOOK",
+      "order": 15,
+      "text": "I let urgent but unimportant tasks crowd out what truly mattered.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOPE",
+      "order": 1,
+      "text": "I stayed connected with people I care about through quality time, reaching out first and choosing real conversation over screens.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOPE",
+      "order": 2,
+      "text": "I listened carefully before responding to someone close to me and expressed genuine appreciation.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOPE",
+      "order": 3,
+      "text": "I did something kind for someone without expecting anything in return.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOPE",
+      "order": 4,
+      "text": "I checked in on someone when I thought they might need encouragement or support.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOPE",
+      "order": 5,
+      "text": "I avoided owning my part or taking the first step to reconnect when I knew I had hurt someone I care about.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOPE",
+      "order": 6,
+      "text": "I made time for meaningful conversation with someone close to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOPE",
+      "order": 7,
+      "text": "I apologised when I knew I had hurt someone's feelings.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOPE",
+      "order": 8,
+      "text": "I celebrated someone else's success without comparing myself.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOPE",
+      "order": 9,
+      "text": "I spoke respectfully even when I disagreed.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOPE",
+      "order": 10,
+      "text": "I ignored messages or calls from people who matter to me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOPE",
+      "order": 11,
+      "text": "I showed patience when someone needed extra support.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOPE",
+      "order": 12,
+      "text": "I expressed appreciation to someone who helps me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOPE",
+      "order": 13,
+      "text": "I kept a commitment I made to a family member or friend.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOPE",
+      "order": 14,
+      "text": "I worked through a disagreement without shutting people out.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOPE",
+      "order": 15,
+      "text": "I was dismissive when someone tried to share with me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HONE",
+      "order": 1,
+      "text": "I gave my body enough sleep and rest while managing a busy season of change.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HONE",
+      "order": 2,
+      "text": "I moved my body through physical activity on most days, even when my schedule was full.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HONE",
+      "order": 3,
+      "text": "I kept myself adequately hydrated and ate meals that gave me steady energy through the day.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HONE",
+      "order": 4,
+      "text": "I noticed early signs of stress and used a healthy reset before it built up during a demanding week.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HONE",
+      "order": 5,
+      "text": "I neglected long-term health prevention even when I knew a small step would help future me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HONE",
+      "order": 6,
+      "text": "I ate meals that gave me steady energy through the day.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HONE",
+      "order": 7,
+      "text": "I noticed early signs of stress and responded before they built up.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HONE",
+      "order": 8,
+      "text": "I limited habits that I know harm my health.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HONE",
+      "order": 9,
+      "text": "I took breaks when my body or mind needed rest.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HONE",
+      "order": 10,
+      "text": "I skipped meals or sleep when I knew I needed them.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HONE",
+      "order": 11,
+      "text": "I chose water or nourishing drinks over excessive caffeine or sugar.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HONE",
+      "order": 12,
+      "text": "I stretched or moved after long periods of sitting.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HONE",
+      "order": 13,
+      "text": "I followed through on a health-related goal I had set.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HONE",
+      "order": 14,
+      "text": "I treated illness or pain with appropriate care instead of ignoring it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HONE",
+      "order": 15,
+      "text": "I pushed through exhaustion when rest was the better choice.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOLD",
+      "order": 1,
+      "text": "I tracked where my money went for important expenses as I manage early-adult finances.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOLD",
+      "order": 2,
+      "text": "I considered whether something was worth the cost before choosing it on a limited budget.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOLD",
+      "order": 3,
+      "text": "I protected money I had decided to save toward a future need or goal.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOLD",
+      "order": 4,
+      "text": "I prepared ahead for future expenses or needs I can see coming.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOLD",
+      "order": 5,
+      "text": "I spent without thinking about whether it matched my priorities.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOLD",
+      "order": 6,
+      "text": "I tracked where my money was going for important expenses.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOLD",
+      "order": 7,
+      "text": "I delayed a purchase when I was not sure I could afford it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOLD",
+      "order": 8,
+      "text": "I put something aside for a future need or goal.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOLD",
+      "order": 9,
+      "text": "I compared prices or options before a significant purchase.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOLD",
+      "order": 10,
+      "text": "I made impulse purchases I later regretted.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOLD",
+      "order": 11,
+      "text": "I paid bills or obligations on time.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOLD",
+      "order": 12,
+      "text": "I talked openly about money decisions with people who should be involved.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOLD",
+      "order": 13,
+      "text": "I used a budget or spending plan to guide my choices.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOLD",
+      "order": 14,
+      "text": "I avoided unnecessary debt or high-interest borrowing.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOLD",
+      "order": 15,
+      "text": "I spent without thinking about whether it matched my priorities.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOD",
+      "order": 1,
+      "text": "I paused before acting when my emotions were strong and named what I was feeling.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOD",
+      "order": 2,
+      "text": "I kept a commitment I made to myself or someone I care about.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOD",
+      "order": 3,
+      "text": "My actions matched the values I expect from myself as I grow into adulthood.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOD",
+      "order": 4,
+      "text": "I paused before reacting when I felt overwhelmed and used a healthy outlet to recover.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOD",
+      "order": 5,
+      "text": "I let personal boundaries slip when keeping them would have been inconvenient.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOD",
+      "order": 6,
+      "text": "I named my feelings instead of letting them drive my actions blindly.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOD",
+      "order": 7,
+      "text": "I chose a healthy outlet when I felt overwhelmed.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOD",
+      "order": 8,
+      "text": "I forgave myself after a mistake instead of dwelling on it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOD",
+      "order": 9,
+      "text": "I set a boundary that protected my wellbeing.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOD",
+      "order": 10,
+      "text": "I spoke harshly to myself in ways I would not use with others.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOD",
+      "order": 11,
+      "text": "I took time to reflect on what matters most to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOD",
+      "order": 12,
+      "text": "I reached out for support when I needed it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOD",
+      "order": 13,
+      "text": "I made a choice that aligned with my long-term wellbeing over short-term comfort.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOD",
+      "order": 14,
+      "text": "I noticed when I was running on empty and adjusted before burning out.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOD",
+      "order": 15,
+      "text": "I ignored warning signs that I was overstressed or depleted.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOST",
+      "order": 1,
+      "text": "I followed through on something I agreed to take care of at home or in shared living.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOST",
+      "order": 2,
+      "text": "I helped at home or in shared spaces without always waiting to be asked.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOST",
+      "order": 3,
+      "text": "I cared for belongings or did simple maintenance where I live.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOST",
+      "order": 4,
+      "text": "I reset or organised a shared space so my living environment felt comfortable.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOST",
+      "order": 5,
+      "text": "I neglected a household issue I could reasonably have handled or left a shared space worse than I found it.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOST",
+      "order": 6,
+      "text": "I put things back where they belong after using them.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOST",
+      "order": 7,
+      "text": "I shared responsibility for meals or household routines.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOST",
+      "order": 8,
+      "text": "I fixed or reported something broken instead of leaving it for someone else.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOST",
+      "order": 9,
+      "text": "I made our home feel welcoming for the people who live there or visit.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOST",
+      "order": 10,
+      "text": "I left messes for others to clean up when I could have handled them.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOST",
+      "order": 11,
+      "text": "I prepared ahead so mornings or busy days ran more smoothly at home.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOST",
+      "order": 12,
+      "text": "I respected shared spaces and other people's belongings.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOST",
+      "order": 13,
+      "text": "I completed a household task I had been putting off.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOST",
+      "order": 14,
+      "text": "I contributed to making home a calm, orderly place.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOST",
+      "order": 15,
+      "text": "I neglected basic upkeep that I knew needed doing.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HORN",
+      "order": 1,
+      "text": "I had a clear sense of one priority or challenge I am working towards in this season of life.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HORN",
+      "order": 2,
+      "text": "I acted on an important priority rather than only thinking about it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HORN",
+      "order": 3,
+      "text": "I returned to an important goal after a setback and tried again.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HORN",
+      "order": 4,
+      "text": "I asked for or used feedback to learn and improve on something that matters to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HORN",
+      "order": 5,
+      "text": "I avoided feedback or a challenging step that would have helped me grow.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HORN",
+      "order": 6,
+      "text": "I broke a large goal into steps I could act on this week.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HORN",
+      "order": 7,
+      "text": "I learned something new that supports a goal I care about.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HORN",
+      "order": 8,
+      "text": "I measured progress on something important to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HORN",
+      "order": 9,
+      "text": "I said no to distractions that would pull me off course.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HORN",
+      "order": 10,
+      "text": "I gave up on a goal as soon as it got difficult.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HORN",
+      "order": 11,
+      "text": "I asked for help or advice to improve in an area that matters to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HORN",
+      "order": 12,
+      "text": "I finished something I started even when motivation dropped.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HORN",
+      "order": 13,
+      "text": "I reviewed whether my daily actions matched my stated priorities.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HORN",
+      "order": 14,
+      "text": "I took a small risk that could help me grow.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HORN",
+      "order": 15,
+      "text": "I avoided trying because I feared I would not succeed.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOK",
+      "order": 1,
+      "text": "I planned my time so there was room for important personal and family priorities.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOK",
+      "order": 2,
+      "text": "I focused on one task at a time without unnecessary distractions when studying or working.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOK",
+      "order": 3,
+      "text": "I finished something important I started instead of leaving it undone.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOK",
+      "order": 4,
+      "text": "I gave my full attention to the person in front of me rather than splitting my presence.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOK",
+      "order": 5,
+      "text": "I was unnecessarily impatient when I needed to wait for something or someone.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOK",
+      "order": 6,
+      "text": "I started my day with a clear sense of what mattered most.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOK",
+      "order": 7,
+      "text": "I batch similar tasks to use my time more efficiently.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOK",
+      "order": 8,
+      "text": "I ended the day without leaving priorities I could have addressed undone.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOK",
+      "order": 9,
+      "text": "I protected focused time from unnecessary interruptions.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOK",
+      "order": 10,
+      "text": "I lost track of time on activities that did not matter to me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOK",
+      "order": 11,
+      "text": "I arrived on time for commitments I had made.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOK",
+      "order": 12,
+      "text": "I built in buffer time so delays did not derail my whole day.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOK",
+      "order": 13,
+      "text": "I chose presence over multitasking when someone needed my attention.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOK",
+      "order": 14,
+      "text": "I reviewed how I spent my time and adjusted for the next day.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "D5",
+      "hillCode": "HOOK",
+      "order": 15,
+      "text": "I let urgent but unimportant tasks crowd out what truly mattered.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOPE",
+      "order": 1,
+      "text": "I stayed connected with family members and people I care about through meaningful quality time and conversation.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOPE",
+      "order": 2,
+      "text": "I listened carefully before responding to someone and expressed appreciation for something specific.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOPE",
+      "order": 3,
+      "text": "I did something kind without expecting anything in return.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOPE",
+      "order": 4,
+      "text": "I checked in on someone when I thought they might need encouragement or support.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOPE",
+      "order": 5,
+      "text": "I avoided apologizing or taking the first step to reconnect when I knew I had hurt someone I care about.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOPE",
+      "order": 6,
+      "text": "I made time for meaningful conversation with someone close to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOPE",
+      "order": 7,
+      "text": "I apologised when I knew I had hurt someone's feelings.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOPE",
+      "order": 8,
+      "text": "I celebrated someone else's success without comparing myself.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOPE",
+      "order": 9,
+      "text": "I spoke respectfully even when I disagreed.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOPE",
+      "order": 10,
+      "text": "I ignored messages or calls from people who matter to me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOPE",
+      "order": 11,
+      "text": "I showed patience when someone needed extra support.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOPE",
+      "order": 12,
+      "text": "I expressed appreciation to someone who helps me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOPE",
+      "order": 13,
+      "text": "I kept a commitment I made to a family member or friend.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOPE",
+      "order": 14,
+      "text": "I worked through a disagreement without shutting people out.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOPE",
+      "order": 15,
+      "text": "I was dismissive when someone tried to share with me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HONE",
+      "order": 1,
+      "text": "I gave my body enough sleep and rest.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HONE",
+      "order": 2,
+      "text": "I moved my body through physical activity on most days.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HONE",
+      "order": 3,
+      "text": "I kept myself adequately hydrated and ate meals that gave me steady energy.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HONE",
+      "order": 4,
+      "text": "I noticed early signs of stress and used a healthy reset before it built up.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HONE",
+      "order": 5,
+      "text": "I neglected long-term health prevention even when I knew a small step would help future me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HONE",
+      "order": 6,
+      "text": "I ate meals that gave me steady energy through the day.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HONE",
+      "order": 7,
+      "text": "I noticed early signs of stress and responded before they built up.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HONE",
+      "order": 8,
+      "text": "I limited habits that I know harm my health.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HONE",
+      "order": 9,
+      "text": "I took breaks when my body or mind needed rest.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HONE",
+      "order": 10,
+      "text": "I skipped meals or sleep when I knew I needed them.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HONE",
+      "order": 11,
+      "text": "I chose water or nourishing drinks over excessive caffeine or sugar.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HONE",
+      "order": 12,
+      "text": "I stretched or moved after long periods of sitting.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HONE",
+      "order": 13,
+      "text": "I followed through on a health-related goal I had set.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HONE",
+      "order": 14,
+      "text": "I treated illness or pain with appropriate care instead of ignoring it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HONE",
+      "order": 15,
+      "text": "I pushed through exhaustion when rest was the better choice.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOLD",
+      "order": 1,
+      "text": "I tracked where my money went for important expenses.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOLD",
+      "order": 2,
+      "text": "I considered whether something was worth the cost before choosing it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOLD",
+      "order": 3,
+      "text": "I protected money I had decided to save.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOLD",
+      "order": 4,
+      "text": "I prepared ahead for future expenses or needs.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOLD",
+      "order": 5,
+      "text": "I spent without thinking about whether it matched my priorities.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOLD",
+      "order": 6,
+      "text": "I tracked where my money was going for important expenses.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOLD",
+      "order": 7,
+      "text": "I delayed a purchase when I was not sure I could afford it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOLD",
+      "order": 8,
+      "text": "I put something aside for a future need or goal.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOLD",
+      "order": 9,
+      "text": "I compared prices or options before a significant purchase.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOLD",
+      "order": 10,
+      "text": "I made impulse purchases I later regretted.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOLD",
+      "order": 11,
+      "text": "I paid bills or obligations on time.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOLD",
+      "order": 12,
+      "text": "I talked openly about money decisions with people who should be involved.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOLD",
+      "order": 13,
+      "text": "I used a budget or spending plan to guide my choices.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOLD",
+      "order": 14,
+      "text": "I avoided unnecessary debt or high-interest borrowing.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOLD",
+      "order": 15,
+      "text": "I spent without thinking about whether it matched my priorities.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOD",
+      "order": 1,
+      "text": "I paused before acting when my emotions were strong and noticed how I was feeling.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOD",
+      "order": 2,
+      "text": "I kept a commitment I made to myself or someone I care about.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOD",
+      "order": 3,
+      "text": "My actions matched the values I expect from myself.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOD",
+      "order": 4,
+      "text": "I paused before reacting when I felt overwhelmed and used a healthy outlet to recover.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOD",
+      "order": 5,
+      "text": "I let personal boundaries slip when keeping them would have been inconvenient.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOD",
+      "order": 6,
+      "text": "I named my feelings instead of letting them drive my actions blindly.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOD",
+      "order": 7,
+      "text": "I chose a healthy outlet when I felt overwhelmed.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOD",
+      "order": 8,
+      "text": "I forgave myself after a mistake instead of dwelling on it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOD",
+      "order": 9,
+      "text": "I set a boundary that protected my wellbeing.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOD",
+      "order": 10,
+      "text": "I spoke harshly to myself in ways I would not use with others.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOD",
+      "order": 11,
+      "text": "I took time to reflect on what matters most to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOD",
+      "order": 12,
+      "text": "I reached out for support when I needed it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOD",
+      "order": 13,
+      "text": "I made a choice that aligned with my long-term wellbeing over short-term comfort.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOD",
+      "order": 14,
+      "text": "I noticed when I was running on empty and adjusted before burning out.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOD",
+      "order": 15,
+      "text": "I ignored warning signs that I was overstressed or depleted.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOST",
+      "order": 1,
+      "text": "I followed through on something I agreed to take care of at home.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOST",
+      "order": 2,
+      "text": "I helped at home without always waiting to be asked.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOST",
+      "order": 3,
+      "text": "I cared for belongings or did simple maintenance at home.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOST",
+      "order": 4,
+      "text": "I reset or organised a shared space so my living environment felt comfortable.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOST",
+      "order": 5,
+      "text": "I neglected a household issue or left a shared space worse than I found it.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOST",
+      "order": 6,
+      "text": "I put things back where they belong after using them.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOST",
+      "order": 7,
+      "text": "I shared responsibility for meals or household routines.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOST",
+      "order": 8,
+      "text": "I fixed or reported something broken instead of leaving it for someone else.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOST",
+      "order": 9,
+      "text": "I made our home feel welcoming for the people who live there or visit.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOST",
+      "order": 10,
+      "text": "I left messes for others to clean up when I could have handled them.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOST",
+      "order": 11,
+      "text": "I prepared ahead so mornings or busy days ran more smoothly at home.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOST",
+      "order": 12,
+      "text": "I respected shared spaces and other people's belongings.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOST",
+      "order": 13,
+      "text": "I completed a household task I had been putting off.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOST",
+      "order": 14,
+      "text": "I contributed to making home a calm, orderly place.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOST",
+      "order": 15,
+      "text": "I neglected basic upkeep that I knew needed doing.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HORN",
+      "order": 1,
+      "text": "I had a clear sense of one priority or challenge I am working towards.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HORN",
+      "order": 2,
+      "text": "I acted on an important priority rather than only thinking about it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HORN",
+      "order": 3,
+      "text": "I returned to an important goal after a setback and tried again.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HORN",
+      "order": 4,
+      "text": "I asked for or used feedback to learn and improve on something that matters.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HORN",
+      "order": 5,
+      "text": "I avoided feedback or a challenging step that would have helped me grow.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HORN",
+      "order": 6,
+      "text": "I broke a large goal into steps I could act on this week.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HORN",
+      "order": 7,
+      "text": "I learned something new that supports a goal I care about.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HORN",
+      "order": 8,
+      "text": "I measured progress on something important to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HORN",
+      "order": 9,
+      "text": "I said no to distractions that would pull me off course.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HORN",
+      "order": 10,
+      "text": "I gave up on a goal as soon as it got difficult.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HORN",
+      "order": 11,
+      "text": "I asked for help or advice to improve in an area that matters to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HORN",
+      "order": 12,
+      "text": "I finished something I started even when motivation dropped.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HORN",
+      "order": 13,
+      "text": "I reviewed whether my daily actions matched my stated priorities.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HORN",
+      "order": 14,
+      "text": "I took a small risk that could help me grow.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HORN",
+      "order": 15,
+      "text": "I avoided trying because I feared I would not succeed.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOK",
+      "order": 1,
+      "text": "I planned my time so there was room for important things.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOK",
+      "order": 2,
+      "text": "I focused on one task at a time without unnecessary distractions or multitasking.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOK",
+      "order": 3,
+      "text": "I finished something important I started instead of leaving it undone.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOK",
+      "order": 4,
+      "text": "I gave my full attention to the person in front of me rather than splitting my presence.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOK",
+      "order": 5,
+      "text": "I was unnecessarily impatient when I needed to wait for something or someone.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOK",
+      "order": 6,
+      "text": "I started my day with a clear sense of what mattered most.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOK",
+      "order": 7,
+      "text": "I batch similar tasks to use my time more efficiently.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOK",
+      "order": 8,
+      "text": "I ended the day without leaving priorities I could have addressed undone.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOK",
+      "order": 9,
+      "text": "I protected focused time from unnecessary interruptions.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOK",
+      "order": 10,
+      "text": "I lost track of time on activities that did not matter to me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOK",
+      "order": 11,
+      "text": "I arrived on time for commitments I had made.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOK",
+      "order": 12,
+      "text": "I built in buffer time so delays did not derail my whole day.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOK",
+      "order": 13,
+      "text": "I chose presence over multitasking when someone needed my attention.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOK",
+      "order": 14,
+      "text": "I reviewed how I spent my time and adjusted for the next day.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "V6",
+      "hillCode": "HOOK",
+      "order": 15,
+      "text": "I let urgent but unimportant tasks crowd out what truly mattered.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOPE",
+      "order": 1,
+      "text": "I made meaningful time to connect with family members, reached out first, and chose connection over distraction.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOPE",
+      "order": 2,
+      "text": "I listened fully before responding to a family member and told them something specific I appreciate about them.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOPE",
+      "order": 3,
+      "text": "I did something kind for a family member without expecting anything in return.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOPE",
+      "order": 4,
+      "text": "I checked in on a family member when I thought they might need encouragement or support.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOPE",
+      "order": 5,
+      "text": "I avoided apologizing or taking the first step to reconnect when I knew I had hurt a family member.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOPE",
+      "order": 6,
+      "text": "I made time for meaningful conversation with someone close to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOPE",
+      "order": 7,
+      "text": "I apologised when I knew I had hurt someone's feelings.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOPE",
+      "order": 8,
+      "text": "I celebrated someone else's success without comparing myself.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOPE",
+      "order": 9,
+      "text": "I spoke respectfully even when I disagreed.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOPE",
+      "order": 10,
+      "text": "I ignored messages or calls from people who matter to me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOPE",
+      "order": 11,
+      "text": "I showed patience when someone needed extra support.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOPE",
+      "order": 12,
+      "text": "I expressed appreciation to someone who helps me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOPE",
+      "order": 13,
+      "text": "I kept a commitment I made to a family member or friend.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOPE",
+      "order": 14,
+      "text": "I worked through a disagreement without shutting people out.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOPE",
+      "order": 15,
+      "text": "I was dismissive when someone tried to share with me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HONE",
+      "order": 1,
+      "text": "I gave my body enough sleep and rest so I can show up well for my family.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HONE",
+      "order": 2,
+      "text": "I moved my body through physical activity to protect my long-term health for my family.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HONE",
+      "order": 3,
+      "text": "I kept myself adequately hydrated and ate meals that gave me steady energy for family life.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HONE",
+      "order": 4,
+      "text": "I noticed early signs of stress and used a healthy reset before it built up while caring for others.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HONE",
+      "order": 5,
+      "text": "I neglected long-term health prevention even when I knew it would affect my ability to support my family.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HONE",
+      "order": 6,
+      "text": "I ate meals that gave me steady energy through the day.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HONE",
+      "order": 7,
+      "text": "I noticed early signs of stress and responded before they built up.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HONE",
+      "order": 8,
+      "text": "I limited habits that I know harm my health.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HONE",
+      "order": 9,
+      "text": "I took breaks when my body or mind needed rest.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HONE",
+      "order": 10,
+      "text": "I skipped meals or sleep when I knew I needed them.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HONE",
+      "order": 11,
+      "text": "I chose water or nourishing drinks over excessive caffeine or sugar.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HONE",
+      "order": 12,
+      "text": "I stretched or moved after long periods of sitting.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HONE",
+      "order": 13,
+      "text": "I followed through on a health-related goal I had set.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HONE",
+      "order": 14,
+      "text": "I treated illness or pain with appropriate care instead of ignoring it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HONE",
+      "order": 15,
+      "text": "I pushed through exhaustion when rest was the better choice.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOLD",
+      "order": 1,
+      "text": "I tracked where my money went and reviewed our household finances.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOLD",
+      "order": 2,
+      "text": "I considered whether something was worth the cost before choosing it for our household.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOLD",
+      "order": 3,
+      "text": "I protected money I had decided to save for family needs or goals.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOLD",
+      "order": 4,
+      "text": "I prepared ahead for future household expenses or needs.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOLD",
+      "order": 5,
+      "text": "I spent on family needs without thinking about whether it matched my priorities.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOLD",
+      "order": 6,
+      "text": "I tracked where my money was going for important expenses.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOLD",
+      "order": 7,
+      "text": "I delayed a purchase when I was not sure I could afford it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOLD",
+      "order": 8,
+      "text": "I put something aside for a future need or goal.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOLD",
+      "order": 9,
+      "text": "I compared prices or options before a significant purchase.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOLD",
+      "order": 10,
+      "text": "I made impulse purchases I later regretted.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOLD",
+      "order": 11,
+      "text": "I paid bills or obligations on time.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOLD",
+      "order": 12,
+      "text": "I talked openly about money decisions with people who should be involved.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOLD",
+      "order": 13,
+      "text": "I used a budget or spending plan to guide my choices.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOLD",
+      "order": 14,
+      "text": "I avoided unnecessary debt or high-interest borrowing.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOLD",
+      "order": 15,
+      "text": "I spent without thinking about whether it matched my priorities.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOD",
+      "order": 1,
+      "text": "I paused before acting when my emotions were strong and reflected on how I was feeling.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOD",
+      "order": 2,
+      "text": "I kept a commitment I made to my family.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOD",
+      "order": 3,
+      "text": "My actions matched the values I want my family to see me live by.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOD",
+      "order": 4,
+      "text": "I paused before reacting when I felt overwhelmed and used a healthy outlet to recover while supporting my family.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOD",
+      "order": 5,
+      "text": "I let personal boundaries slip when keeping them would have been inconvenient for my family or me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOD",
+      "order": 6,
+      "text": "I named my feelings instead of letting them drive my actions blindly.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOD",
+      "order": 7,
+      "text": "I chose a healthy outlet when I felt overwhelmed.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOD",
+      "order": 8,
+      "text": "I forgave myself after a mistake instead of dwelling on it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOD",
+      "order": 9,
+      "text": "I set a boundary that protected my wellbeing.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOD",
+      "order": 10,
+      "text": "I spoke harshly to myself in ways I would not use with others.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOD",
+      "order": 11,
+      "text": "I took time to reflect on what matters most to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOD",
+      "order": 12,
+      "text": "I reached out for support when I needed it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOD",
+      "order": 13,
+      "text": "I made a choice that aligned with my long-term wellbeing over short-term comfort.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOD",
+      "order": 14,
+      "text": "I noticed when I was running on empty and adjusted before burning out.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOD",
+      "order": 15,
+      "text": "I ignored warning signs that I was overstressed or depleted.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOST",
+      "order": 1,
+      "text": "I followed through on something I agreed to take care of at home for my family.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOST",
+      "order": 2,
+      "text": "I helped at home without always waiting to be asked, even when others needed support too.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOST",
+      "order": 3,
+      "text": "I cared for belongings or did simple maintenance to keep our home working well.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOST",
+      "order": 4,
+      "text": "I reset or organised a shared space so our home felt clean and comfortable for everyone.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOST",
+      "order": 5,
+      "text": "I neglected a household issue our family relies on or left a shared space worse than I found it.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOST",
+      "order": 6,
+      "text": "I put things back where they belong after using them.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOST",
+      "order": 7,
+      "text": "I shared responsibility for meals or household routines.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOST",
+      "order": 8,
+      "text": "I fixed or reported something broken instead of leaving it for someone else.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOST",
+      "order": 9,
+      "text": "I made our home feel welcoming for the people who live there or visit.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOST",
+      "order": 10,
+      "text": "I left messes for others to clean up when I could have handled them.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOST",
+      "order": 11,
+      "text": "I prepared ahead so mornings or busy days ran more smoothly at home.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOST",
+      "order": 12,
+      "text": "I respected shared spaces and other people's belongings.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOST",
+      "order": 13,
+      "text": "I completed a household task I had been putting off.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOST",
+      "order": 14,
+      "text": "I contributed to making home a calm, orderly place.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOST",
+      "order": 15,
+      "text": "I neglected basic upkeep that I knew needed doing.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HORN",
+      "order": 1,
+      "text": "I had a clear sense of one priority or challenge I am working towards for my family.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HORN",
+      "order": 2,
+      "text": "I acted on an important priority for my family rather than only thinking about it.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HORN",
+      "order": 3,
+      "text": "I returned to an important family goal after a setback and tried again.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HORN",
+      "order": 4,
+      "text": "I asked for or used feedback to learn and improve in my role supporting my family.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HORN",
+      "order": 5,
+      "text": "I avoided feedback or a challenging step that would have helped me grow in supporting my family.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HORN",
+      "order": 6,
+      "text": "I broke a large goal into steps I could act on this week.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HORN",
+      "order": 7,
+      "text": "I learned something new that supports a goal I care about.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HORN",
+      "order": 8,
+      "text": "I measured progress on something important to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HORN",
+      "order": 9,
+      "text": "I said no to distractions that would pull me off course.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HORN",
+      "order": 10,
+      "text": "I gave up on a goal as soon as it got difficult.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HORN",
+      "order": 11,
+      "text": "I asked for help or advice to improve in an area that matters to me.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HORN",
+      "order": 12,
+      "text": "I finished something I started even when motivation dropped.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HORN",
+      "order": 13,
+      "text": "I reviewed whether my daily actions matched my stated priorities.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HORN",
+      "order": 14,
+      "text": "I took a small risk that could help me grow.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HORN",
+      "order": 15,
+      "text": "I avoided trying because I feared I would not succeed.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOK",
+      "order": 1,
+      "text": "I planned my time so there was room for important family priorities.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOK",
+      "order": 2,
+      "text": "I focused on one task at a time without unnecessary distractions or multitasking at home.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOK",
+      "order": 3,
+      "text": "I finished something important I started for my family instead of leaving it undone.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOK",
+      "order": 4,
+      "text": "I gave my full attention to the family member in front of me rather than splitting my presence.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOK",
+      "order": 5,
+      "text": "I was unnecessarily impatient with a family member when I needed to wait.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOK",
+      "order": 6,
+      "text": "I started my day with a clear sense of what mattered most.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOK",
+      "order": 7,
+      "text": "I batch similar tasks to use my time more efficiently.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOK",
+      "order": 8,
+      "text": "I ended the day without leaving priorities I could have addressed undone.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOK",
+      "order": 9,
+      "text": "I protected focused time from unnecessary interruptions.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOK",
+      "order": 10,
+      "text": "I lost track of time on activities that did not matter to me.",
+      "isReverseScored": true
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOK",
+      "order": 11,
+      "text": "I arrived on time for commitments I had made.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOK",
+      "order": 12,
+      "text": "I built in buffer time so delays did not derail my whole day.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOK",
+      "order": 13,
+      "text": "I chose presence over multitasking when someone needed my attention.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOK",
+      "order": 14,
+      "text": "I reviewed how I spent my time and adjusted for the next day.",
+      "isReverseScored": false
+    },
+    {
+      "categoryCode": "N7",
+      "hillCode": "HOOK",
+      "order": 15,
+      "text": "I let urgent but unimportant tasks crowd out what truly mattered.",
+      "isReverseScored": true
+    }
+  ]
+}

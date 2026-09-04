@@ -1,0 +1,36 @@
+import { Router } from 'express';
+import { healthRouter } from './health';
+import { authRouter } from './auth';
+import { usersRouter } from './users';
+import { hillsRouter } from './hills';
+import { glowSeedsRouter } from './glowSeeds';
+import { gapAssessmentRouter } from './gapAssessment';
+import { journeyRouter } from './journey';
+import { familiesRouter } from './families';
+import { dashboardRouter } from './dashboard';
+import { profileRouter } from './profile';
+import { flowWeekRouter } from './flowWeek';
+import { adminRouter } from './admin';
+import { treeRouter } from './tree';
+import { geoRouter, organizationsRouter, leadershipRouter } from './geo';
+import { avatarAssetsRouter } from './avatarAssets';
+
+export const apiRouter = Router();
+
+apiRouter.use('/health', healthRouter);
+apiRouter.use('/auth', authRouter);
+apiRouter.use('/users', usersRouter);
+apiRouter.use('/avatar-assets', avatarAssetsRouter);
+apiRouter.use('/families', familiesRouter);
+apiRouter.use('/hills', hillsRouter);
+apiRouter.use('/glow-seeds', glowSeedsRouter);
+apiRouter.use('/gap-assessment', gapAssessmentRouter);
+apiRouter.use('/journey', journeyRouter);
+apiRouter.use('/dashboard', dashboardRouter);
+apiRouter.use('/profile', profileRouter);
+apiRouter.use('/flow-week', flowWeekRouter);
+apiRouter.use('/tree', treeRouter);
+apiRouter.use('/admin', adminRouter);
+apiRouter.use('/geo', geoRouter);
+apiRouter.use('/organizations', organizationsRouter);
+apiRouter.use('/leadership', leadershipRouter);

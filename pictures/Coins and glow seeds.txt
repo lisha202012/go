@@ -1,0 +1,1233 @@
+GOFAM GROW MVP
+
+Developer Specification
+
+GOFAM Coins & GLOW Seeds
+
+Version 3.0 (FINAL)
+
+?
+
+OVERVIEW
+
+The GOFAM reward system is built around two complementary concepts:
+
+?? FLOW
+
+Grow Yourself
+
+FLOW rewards consistent personal growth through Missions, Habits and Challenges.
+
+Users earn GOFAM Coins by becoming a better version of themselves.
+
+?
+
+?? GLOW
+
+Help Others Grow
+
+GLOW rewards encouragement.
+
+Users earn GLOW Seeds by growing themselves, then plant those Seeds in others.
+
+Every accepted GLOW Seed creates a shared growth experience between two people.
+
+?
+
+The app should consistently reinforce:
+
+Master the Flow. Share the Glow.
+
+?
+
+PART 1 — GOFAM COINS
+
+Purpose
+
+GOFAM Coins reward effort, consistency and growth.
+
+Coins are not cryptocurrency.
+
+Coins are not cash.
+
+They are the in-app reward currency that celebrates personal progress.
+
+?
+
+Coin Value
+
+For accounting purposes:
+
+100 GOFAM Coins ˜ ?1
+
+(or equivalent localized value)
+
+Coins may later be redeemed for:
+
+* Courses
+* Merchandise
+* Avatar customizations
+* Tree & Garden decorations
+* Event discounts
+* Digital resources
+* Future marketplace items
+
+?
+
+PERSONAL GROWTH REWARDS
+
+GAP Assessment
+
+Purpose:
+
+Assessment only.
+
+Reward:
+
+0 Coins
+
+?
+
+First Mission
+
+Standard reward:
+
+200 Coins
+
+If the user joins through a GLOW Seed:
+
+* First Mission = 200 Coins
+* Welcome Bloom Bonus = 300 Coins
+
+Total:
+
+500 Coins
+
+Awarded only once per account.
+
+?
+
+Standard Mission
+
+Every completed Mission:
+
+100 Coins
+
+?
+
+Reflection
+
+Reflection completed:
+
++25 Coins
+
+?
+
+Evidence
+
+Photo / Journal / Proof submitted:
+
++25 Coins
+
+?
+
+Family Mission
+
+Completed together with family:
+
+150 Coins
+
+?
+
+Growth Set
+
+Each Hill contains:
+
+3 Focus Missions
+
+Completing all three earns:
+
+Mission Coins
+
+300
+
+Growth Bonus
+
+200
+
+=
+
+500 Coins (plus 1 Glow Seed)
+
+Completing a Growth Set also completes one Step.
+
+There is no separate Step reward.
+
+?
+
+FLOW Week
+
+Complete all:
+
+7 Hills × 3 Missions
+
+=
+
+21 Missions
+
+Rewards:
+
+Mission Coins
+
+3,500
+
+FLOW Week Bonus
+
+1,500
+
+=
+
+5,000 Coins
+
+PLUS
+
+10 GLOW Seeds
+(7 Hill Completion + 3 Completion Bonus)
+
+?
+
+Camp Rewards
+
+Camp	Reward
+Camp 1	500 Coins
+Camp 2	750 Coins
+Camp 3	1,000 Coins
+Camp 4	1,250 Coins
+Camp 5	1,500 Coins
+Camp 6	2,000 Coins
+Camp 7 (Summit)	10,000 Coins
+
+Each Camp should include:
+
+* Tree Growth Animation
+* Celebration Effects
+* Sound
+* Coin Animation
+
+?
+
+GOFAM COIN LEDGERS
+
+Maintain separate ledgers.
+
+Personal Growth Coins
+
+Earned through Missions.
+
+Used for rankings.
+
+?
+
+Promotional Coins
+
+Marketing rewards.
+
+Admin rewards.
+
+Gift rewards.
+
+Not included in rankings.
+
+?
+
+Wallet Balance
+
+Total spendable Coins.
+
+?
+
+FLOW Ranking
+
+FLOW Ranking is based only on personal effort.
+
+Formula:
+
+60% Steps
+
+20% FLOW Index
+
+20% Personal Growth Coins (last 30 days)
+
+Promotional Coins never contribute.
+
+Coins earned through GLOW count because the user must still complete Missions to earn them.
+
+?
+
+PART 2 — GOFAM GLOW SEEDS
+
+?
+
+Core Philosophy
+
+A GLOW Seed represents one person believing in another person’s growth.
+
+It is not a referral reward.
+
+It is not a gift.
+
+It is not a coupon.
+
+It is an act of encouragement.
+
+?
+
+Every GLOW Seed is identical.
+
+Every GLOW Seed is mysterious.
+
+Nobody knows what Virtue it contains.
+
+Not the sender.
+
+Not the receiver.
+
+Only when the Seed blooms is its Virtue revealed.
+
+?
+
+Earning GLOW Seeds
+
+GLOW Seeds are earned only through personal growth.
+
+Typical source:
+
+Complete a FLOW Week
+
+?
+
+Earn:
+
+10 GLOW Seeds
+
+(7 Hill Rewards + 3 Completion Bonus)
+
+Users cannot purchase GLOW Seeds.
+
+Users cannot trade GLOW Seeds.
+
+Users cannot gift unused Seeds to others.
+
+?
+
+Maximum Inventory
+
+A user may hold a maximum of:
+
+49 GLOW Seeds
+
+Why?
+
+49 (7×7) represents mastery within GOFAM.
+
+If a user already has 49 Seeds,
+
+newly earned Seeds are forfeited.
+
+This encourages generosity instead of hoarding.
+
+The inventory should display:
+
+37 / 49 GLOW Seeds
+
+?
+
+Sending Rules
+
+A user may send
+
+One GLOW Seed
+
+to the
+
+same Friend
+
+per calendar month.
+
+Example:
+
+July
+
+Coach Bala ? Maya
+
+? Allowed
+
+Second Seed to Maya in July
+
+? Not Allowed
+
+August
+
+? Allowed again
+
+?
+
+Receiving Rules
+
+There is no limit on how many GLOW Seeds a user may receive.
+
+Each accepted Seed has the opportunity to activate a different Virtue.
+
+Duplicate Virtues do not stack.
+
+?
+
+Social Connections
+
+GOFAM is not a messaging platform.
+
+Users connect using:
+
+* Username
+* QR Code
+* Follow Requests
+
+Only mutual Friends may exchange GLOW Seeds.
+
+This protects privacy and reduces spam.
+
+?
+
+Privacy
+
+Visible:
+
+* Username
+* Avatar
+* Tree
+* Hills
+* Achievements
+
+Hidden:
+
+* Phone number
+* Email
+* Personal information
+* Location
+
+No private messaging exists within GOFAM.
+
+?
+
+The Bloom Experience
+
+When a GLOW Seed is accepted:
+
+Animation sequence:
+
+?? Seed lands
+
+?
+
+Tree glows
+
+?
+
+Seed cracks open
+
+?
+
+Light emerges
+
+?
+
+One random Virtue appears
+
+?
+
+Corresponding Hill glows
+
+?
+
+Both sender and receiver activate that Virtue
+
+?
+
+Both celebrate together
+
+?
+
+The Seven Possible Virtues
+
+Virtue	Hill
+Kindness	Hope
+Responsibility	Hone
+Discipline	Hold
+Integrity	Hood
+Hard Work	Host
+Courage	Horn
+Patience	Hook
+
+Each accepted Seed randomly reveals one Virtue.
+
+All seven Virtues have equal probability (configurable from backend).
+
+?
+
+Shared Virtue
+
+The revealed Virtue activates for both users.
+
+Example:
+
+Maya sends a Seed to Arjun.
+
+Arjun accepts.
+
+The Seed blooms into:
+
+? Courage
+
+Result:
+
+Both Maya and Arjun activate Courage.
+
+Both HORN Hills glow until month-end.
+
+Both now receive double Mission Coins for HORN Missions completed during that month.
+
+This creates a shared journey.
+
+?
+
+Monthly Virtue Effect
+
+Each Virtue affects only its corresponding Hill.
+
+Example:
+
+Kindness
+
+?
+
+Hope Hill
+
+?
+
+Every Hope Mission completed during the remainder of that calendar month earns:
+
+Double Coins
+
+Example:
+
+100 Coins
+
+?
+
+200 Coins
+
+The multiplier applies only to that Hill’s Missions (approximately 12–15 available in a calendar month).
+
+?
+
+Duplicate Virtues
+
+Duplicate Virtues never stack.
+
+Example:
+
+User already has Kindness active.
+
+Another Seed blooms into Kindness.
+
+No additional multiplier is granted.
+
+Instead, display:
+
+? Kindness shines brighter.
+
+?
+
+New Users
+
+If the receiver has not yet started GOFAM:
+
+The accepted Seed first activates their account.
+
+Immediately afterwards,
+
+the Seed blooms into one random Virtue.
+
+Every user’s journey therefore begins with mystery and encouragement.
+
+?
+
+Unopened Seeds
+
+A GLOW Seed remains available for:
+
+30 days
+
+If it is not accepted within 30 days:
+
+The Seed quietly fades away.
+
+It is not returned.
+
+This is intentional.
+
+Philosophy
+
+A Seed represents an act of encouragement.
+
+Once planted,
+
+its purpose has been fulfilled.
+
+Whether it blooms depends entirely on the receiver.
+
+This teaches intentional generosity and responsible encouragement.
+
+?
+
+Lifetime Statistics
+
+Display meaningful statistics.
+
+FLOW
+
+* Missions Completed
+* Growth Sets
+* Steps
+* Camps
+* Coins Earned
+
+?
+
+GLOW
+
+* GLOW Seeds Earned
+* GLOW Seeds Planted
+* GLOW Seeds Bloomed
+* Active Virtues This Month
+* Friends Encouraged
+
+Avoid public leaderboards based on GLOW.
+
+These statistics exist for personal reflection.
+
+?
+
+Visual Experience
+
+When a Virtue activates:
+
+* Hill begins glowing
+* Ambient particles appear
+* Butterflies or light effects
+* Gentle sound
+* Virtue banner displayed
+
+At the end of the calendar month:
+
+The glow gently fades,
+
+ready for the next month’s Blooms.
+
+?
+
+Backend Configuration
+
+All reward values must be configurable.
+
+Do not hardcode:
+
+* Mission Coins
+* Reflection Coins
+* Evidence Coins
+* Growth Set Bonus
+* FLOW Week Bonus
+* Camp Rewards
+* Welcome Bonus
+* Maximum Seed Inventory
+* Seed Expiry Duration
+* Monthly Send Limit
+* Virtue Probability
+* Mission Multipliers
+
+Everything should be editable through an admin panel.
+
+?
+
+DESIGN PRINCIPLES
+
+The final implementation should ensure:
+
+* FLOW always rewards personal effort.
+* GLOW always rewards encouragement.
+* GLOW Seeds are scarce enough to feel valuable.
+* Every accepted Seed creates surprise through a hidden Bloom.
+* Every Bloom creates a shared monthly journey between two Friends.
+* Users must choose carefully who to encourage, because Seeds are earned through effort, limited in inventory (49), and disappear if never accepted.
+* The platform remains safe through mutual friendships, usernames, and the absence of private messaging.
+
+?
+
+GOFAM Philosophy
+
+Every Family Is a Garden.
+Plant a Seed. Grow Greatness.
+
+A user’s Tree reflects how they grow.
+
+A user’s Forest reflects how many people they have encouraged to grow.
+
+Together, FLOW and GLOW create an ecosystem where personal growth and community encouragement reinforce each other, making growth meaningful, social, and sustainable.
+
+
+Want to clarify the logic for Bloom Seeds and Virtues.
+
+Every time a member (user) completes 3 Missions in a particular Hill, they receive a Glow seed.
+
+This Glow seed can be used to initiate a new member (becomes friend by default) or encourage a friend (through request and accept request).
+
+When a member gets a glow seeds from another member, they can choose to accept it. Then, the Glow seed blooms into a virtue. The sender gets an intimation that the seed they planted has bloomed. Both of them would simultaneously receive a virtue that activates/boosts their Hill for double coins that entire calendar month (if the Hill has already been boosted, then it won’t count).
+
+A member can send a maximum of 1 Glow seed to a user in a month, and can receive unlimited Glow seeds which can be bloomed or faded away at the end of the month. 
+
+A member can accumulate Glow seeds up to 49 at any given time. And can only earn the Glow seeds through Flow (meaning completing all 3 missions for the Hill).
+
+
+
+Absolutely. Below is a developer-friendly functional flow that can be directly converted into wireframes, user stories, database logic, and backend workflows.
+
+?
+
+GOFAM GROW MVP
+
+FLOW & GLOW SYSTEM FLOWCHART
+
+Version 3.0 (Functional Logic)
+
+?
+
+1. FLOW (Personal Growth)
+
+User Opens App
+        ¦
+        ?
+Dashboard
+        ¦
+        ?
+Select Today's Missions
+        ¦
+        ?
+Complete Mission
+        ¦
+        ?
+Mission Validation
+        ¦
+        +-- Reflection?
+        ¦       ¦
+        ¦       +-- +25 Coins
+        ¦
+        +-- Evidence?
+        ¦       ¦
+        ¦       +-- +25 Coins
+        ¦
+        +-- Family Mission?
+                ¦
+                +-- 150 Coins
+        ¦
+        ?
+Mission Complete
+        ¦
+        ?
+100 Coins
+(or 200 if Virtue Activated)
+        ¦
+        ?
+Update:
+* Coins
+* Hill Progress
+* Step Progress
+* Tree Growth
+
+?
+
+2. Growth Set Flow
+
+3 Missions Completed
+on Same Hill
+        ¦
+        ?
+Growth Set Complete
+        ¦
+        ?
+300 Mission Coins
++
+200 Growth Bonus
+        ¦
+        ?
+500 Coins
+        ¦
+        ?
+One Step Completed
+        ¦
+        ?
+Tree Progress Updated
+
+?
+
+3. FLOW Week
+
+21 Missions Completed
+(7 Hills × 3)
+        ¦
+        ?
+FLOW Week Complete
+        ¦
+        ?
+5000 Coins
+        ¦
+        ?
+10 GLOW Seeds Earned
+        ¦
+        ?
+Update Inventory
+        ¦
+        ?
+If Inventory > 49
+        ¦
+        +-- Keep 49
+        ¦
+        +-- Excess Seeds Lost
+
+?
+
+4. GLOW Seed Inventory
+
+Inventory
+0 / 49
+?
+Earn Seeds
+?
+Inventory Updated
+?
+Maximum
+49
+?
+Additional Seeds
+NOT added
+?
+Display
+37 / 49
+
+?
+
+5. Friend System
+
+Search Username
+        ¦
+        ?
+Follow Request
+        ¦
+        ?
+Accepted?
+        ¦
+        +-- No
+        ¦      End
+        ¦
+        +-- Yes
+               ¦
+               ?
+Friend Request Created
+               ¦
+               ?
+Other User Follows Back?
+               ¦
+               +-- No
+               ¦      Followers Only
+               ¦
+               +-- Yes
+                      ¦
+                      ?
+Become Friends
+                      ¦
+                      ?
+GLOW Seeds Enabled
+
+?
+
+6. Sending GLOW Seed
+
+Friend Profile
+        ¦
+        ?
+Tap
+Plant GLOW Seed
+        ¦
+        ?
+Check
+Already Sent This Month?
+        ¦
+        +-- YES
+        ¦
+        ¦   Show:
+        ¦
+        ¦
+        ¦
+        ¦ Next GLOW Available
+        ¦
+        ¦ 1 August
+        ¦
+        ¦
+        ¦
+        +-- NO
+                ¦
+                ?
+Consume
+1 GLOW Seed
+                ¦
+                ?
+Create Pending Seed
+                ¦
+                ?
+Receiver Notification
+
+?
+
+7. Receiver Flow
+
+Notification
+Coach Bala
+planted a GLOW Seed
+        ¦
+        ?
+Accept?
+        ¦
+        +-- No
+        ¦
+        ¦ Pending
+        ¦
+        +-- Yes
+               ¦
+               ?
+Begin Bloom Animation
+
+?
+
+8. Hidden Bloom
+
+Seed Opens
+        ¦
+        ?
+Random Virtue Generated
+1 of 7
+?
+Kindness
+?
+Responsibility
+?
+Discipline
+?
+Integrity
+?
+Hard Work
+?
+Courage
+?
+Patience
+
+Backend should support configurable probability.
+
+(Currently equal probability.)
+
+?
+
+9. Shared Virtue Activation
+
+Virtue Selected
+?
+Example
+Kindness
+?
+Activate Hope Hill
+FOR BOTH USERS
+?
+Hope Hill Glows
+?
+Multiplier Activated
+Hope Missions
+?
+100 Coins
+?
+200 Coins
+?
+Until Month End
+
+?
+
+10. Duplicate Virtues
+
+Kindness Already Active?
+        ¦
+        +-- No
+        ¦
+        ¦ Activate
+        ¦
+        +-- Yes
+               ¦
+               ?
+Display
+?
+Kindness
+Shines Brighter
+?
+No Additional Bonus
+
+?
+
+11. Monthly Bonus Logic
+
+Mission Completed
+?
+Check
+Matching Activated Virtue?
+?
+YES
+?
+Double Coins
+?
+200
+?
+NO
+?
+Normal Coins
+?
+100
+
+?
+
+12. Month End
+
+Last Day
+23:59
+?
+Remove
+All Active Virtues
+?
+Hill Glow Ends
+?
+Multipliers Removed
+?
+Ready
+For Next Month
+
+?
+
+13. Unopened Seeds
+
+Seed Sent
+?
+Pending
+?
+30 Days
+?
+Accepted?
+?
+YES
+?
+Bloom
+?
+Activate Virtue
+?
+END
+------------
+NO
+?
+Seed Fades Away
+?
+Remove Pending Seed
+?
+END
+
+No refund.
+
+No return.
+
+No notification required.
+
+?
+
+14. New User Activation
+
+New User
+?
+Receives GLOW Seed
+?
+Creates Account
+?
+Completes Onboarding
+?
+Accepts Seed
+?
+Bloom
+?
+Random Virtue
+?
+500 Coin Welcome Bonus
+?
+Journey Begins
+
+?
+
+15. FLOW Ranking
+
+Calculate
+?
+60%
+Steps
++
+20%
+FLOW Index
++
+20%
+Coins
+?
+Ranking Score
+?
+Leaderboard
+
+Only Coins earned through completed Missions count. Promotional or gifted Coins do not.
+
+?
+
+16. Database Model (Suggested)
+
+User
+
+UserID
+Username
+Tree Level
+Wallet Coins
+Growth Coins
+FLOW Index
+Step Count
+Seed Inventory
+Current Active Virtues
+Friends
+
+?
+
+GLOW Seed
+
+SeedID
+SenderID
+ReceiverID
+SentDate
+ExpiryDate
+Status
+Pending
+Accepted
+Expired
+Virtue
+NULL until Bloom
+BloomDate
+
+?
+
+Active Virtue
+
+UserID
+Virtue
+Hill
+ActivatedDate
+ExpiryDate
+SourceSeedID
+
+?
+
+Friend
+
+User1
+User2
+Status
+Following
+Friends
+Blocked
+
+?
+
+17. Complete GLOW Lifecycle
+
+Earn GLOW Seeds
+?
+Inventory
+?
+Choose Friend
+?
+Plant Seed
+?
+Friend Receives
+?
+Accept
+?
+Bloom
+?
+Random Virtue
+?
+Both Hills Glow
+?
+Both Receive Double Coins
+on Matching Hill
+?
+Complete Missions
+?
+Earn Extra Coins
+?
+Month Ends
+?
+Glow Fades
+?
+Repeat
+
+?
+
+18. Entire GOFAM Loop
+
+FLOW
+?
+Complete Missions
+?
+Earn Coins
+?
+Complete Growth Sets
+?
+Complete FLOW Week
+?
+Earn GLOW Seeds
+?
+Encourage Friends
+?
+Hidden Bloom
+?
+Shared Virtues
+?
+Double Mission Coins
+?
+Grow Faster Together
+?
+Complete Camps
+?
+Grow Tree
+?
+Repeat
+
+Guiding Principle for Development
+
+The system should always reinforce a simple and memorable cycle:
+
+FLOW earns GLOW. GLOW strengthens FLOW.
+
+Users first invest in their own growth to earn GLOW Seeds. They then share those Seeds with friends, creating shared Virtues that motivate both people to complete more Missions together. This positive feedback loop is the heart of the GOFAM ecosystem and should be reflected consistently in the app’s UX, animations, notifications, and reward logic.
