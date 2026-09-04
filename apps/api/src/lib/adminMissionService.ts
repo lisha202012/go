@@ -1,3 +1,4 @@
+import { Prisma } from '@prisma/client';
 import { prisma } from './prisma';
 
 function startOfDay(d: Date) {
@@ -126,7 +127,7 @@ export async function listAdminMissions({
   page?: number;
   pageSize?: number;
 }) {
-  const where: Parameters<typeof prisma.mission.findMany>[0]['where'] = {};
+const where: Prisma.MissionWhereInput = {};
 
   if (categoryCode) where.categoryCode = categoryCode;
   if (missionGroup) where.missionGroup = missionGroup;

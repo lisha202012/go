@@ -1,7 +1,7 @@
 import type { Request } from 'express';
 import { prisma } from './prisma';
 
-export type AuditModule = 'mission_engine' | 'journey' | 'glow' | 'trust_safety' | 'organizations' | 'system';
+export type AuditModule = 'mission_engine' | 'journey' | 'glow' | 'trust_safety' | 'organizations' | 'audit' | 'system';
 
 export interface WriteAuditLogInput {
   module: AuditModule;

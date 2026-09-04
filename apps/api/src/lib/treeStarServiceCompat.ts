@@ -22,7 +22,8 @@ export function resolveTreeLevelCompat(totalStars: number) {
     if (totalStars >= lvl.required) current = lvl;
     else break;
   }
-    const next = current.level < TREE_LEVELS.length ? TREE_LEVELS[current.level] : null;
+    const next =
+      TREE_LEVELS.find((lvl) => lvl.level === current.level + 1) ?? null;
   return {
     current: {
       level: current.level,

@@ -1,6 +1,5 @@
 import { Router } from 'express';
 import { z } from 'zod';
-import { listAuditLogs, listAuditLogsForExport } from '../../lib/adminAuditService';
 import { rowsToCsv, sendCsv } from '../../lib/adminCsvExport';
 
 /** Section 85 — Cross-cutting audit log (auditor / super_admin). */

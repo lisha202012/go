@@ -1,6 +1,5 @@
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
 import type { HillCode } from '@prisma/client';
 import type { AgeCategoryCode } from './ageCategories';
 
@@ -25,7 +24,7 @@ type MissionCatalogFile = {
 };
 
 const catalogPath = path.resolve(
-  path.dirname(fileURLToPath(import.meta.url)),
+  __dirname,
   '../../data/missions-945.json',
 );
 

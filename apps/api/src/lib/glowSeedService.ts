@@ -284,6 +284,7 @@ export async function searchGlowPeople(userId: string, query: string) {
 
   const firstSeedByReceiver = new Map<string, (typeof seeds)[number]>();
   for (const seed of seeds) {
+    if (!seed.receiverId) continue;
     if (!firstSeedByReceiver.has(seed.receiverId)) {
       firstSeedByReceiver.set(seed.receiverId, seed);
     }

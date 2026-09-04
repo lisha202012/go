@@ -28,7 +28,11 @@ function mockMission(
     requiresEvidence: false,
     isFamilyMission: false,
     order,
+    whyText: null,
     ...overrides,
+    isDisabled: overrides.isDisabled ?? false,
+    disabledReason: overrides.disabledReason ?? null,
+    disabledAt: overrides.disabledAt ?? null,
   };
 }
 

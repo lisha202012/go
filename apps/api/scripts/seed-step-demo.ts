@@ -5,7 +5,7 @@
  * Password: StepDemo123!
  */
 import { PrismaClient, MissionStatus } from '@prisma/client';
-import bcrypt from 'bcryptjs';
+import bcrypt from 'bcrypt';
 import { backfillGrowthSetsForUser } from '../src/lib/backfillGrowthSets';
 
 const prisma = new PrismaClient({

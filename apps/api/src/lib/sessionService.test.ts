@@ -57,6 +57,7 @@ describe('toPublicSession', () => {
     expiresAt: new Date('2026-10-12T10:00:00.000Z'),
     createdAt: new Date('2026-08-01T10:00:00.000Z'),
     revokedAt: null,
+    adminConsoleSession: false,
   };
 
   it('marks current session', () => {

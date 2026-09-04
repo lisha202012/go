@@ -69,7 +69,7 @@ organizationsAdminRouter.get('/export.csv', async (req, res, next) => {
         verifiedMemberCount: r.verifiedMemberCount,
         cityName: r.cityName ?? '',
         stateName: r.stateName ?? '',
-        createdAt: r.createdAt,
+
       })),
     );
     sendCsv(res, 'organizations-demand.csv', csv);

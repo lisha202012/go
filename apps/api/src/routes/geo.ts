@@ -33,7 +33,7 @@ geoRouter.get('/countries', async (_req, res, next) => {
   try {
     const payload = await getCached('countries', 60 * 60 * 1000, async () => {
       const response = await fetch(`${COUNTRIES_NOW_BASE}/countries/positions`);
-      const json = await response.json();
+      const json = (await response.json()) as { error?: boolean; data?: any };
       if (json.error) throw new AppError('Failed to load countries', 502);
       return (json.data ?? [])
         .map((country: { name: string; iso2: string }) => ({
@@ -60,7 +60,7 @@ geoRouter.get('/states', async (req, res, next) => {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ country: countryName }),
       });
-      const json = await response.json();
+      const json = (await response.json()) as { error?: boolean; data?: any };
       if (json.error) throw new AppError('Failed to load states', 502);
       return (json.data?.states ?? [])
         .map((state: { name: string; state_code?: string }) => ({
@@ -90,7 +90,7 @@ geoRouter.get('/cities', async (req, res, next) => {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ country: countryName, state: stateName }),
       });
-      const json = await response.json();
+      const json = (await response.json()) as { error?: boolean; data?: any };
       if (json.error) throw new AppError('Failed to load cities', 502);
       return (json.data ?? [])
         .slice()
@@ -266,7 +266,6 @@ leadershipRouter.get('/me', requireAuth, async (req, res, next) => {
     const overview = await buildFlowLeadershipOverview(req.user!.id, {
       who: query.who,
       ageGroup: query.ageGroup ?? null,
-      where: query.where,
       countryId: resolvedIds.countryId,
       stateId: resolvedIds.stateId,
       cityId: resolvedIds.cityId,
@@ -288,7 +287,6 @@ leadershipRouter.get('/list', requireAuth, async (req, res, next) => {
     const result = await getFlowLeadershipLeaderboard({
       who: query.who,
       ageGroup: query.ageGroup ?? null,
-      where: query.where,
       countryId: resolvedIds.countryId,
       stateId: resolvedIds.stateId,
       cityId: resolvedIds.cityId,

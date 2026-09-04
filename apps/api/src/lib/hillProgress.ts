@@ -15,7 +15,7 @@ function asCompletedSteps(entry: StepSource): number {
 }
 
 export function totalCompletedSteps(hills: StepSource[] = []): number {
-  return (hills ?? []).reduce((sum, entry) => sum + asCompletedSteps(entry), 0);
+  return (hills ?? []).reduce<number>((sum, entry) => sum + asCompletedSteps(entry), 0);
 }
 
 /** True after 21 FLOW days in total, or 21 steps on any one hill. */
@@ -94,6 +94,10 @@ export function formatHillStepCampLine({
   workingStep,
   completedSteps = 0,
   hillLabel,
+}: {
+  workingStep?: number;
+  completedSteps?: number;
+  hillLabel?: string;
 } = {}) {
   const working = clampSteps(workingStep ?? completedSteps + 1);
   const completed = clampSteps(completedSteps);

@@ -66,7 +66,17 @@ async function respondFocusMissionSelection(
     buildJourneyResponse(assessment, hills, missions, progressRows),
     rewards,
   );
-  const journeyPlan = formatJourneyPlanPayload(focusHill, hills, hillSelections, missions);
+  const journeyPlan = formatJourneyPlanPayload(
+    focusHill,
+    hills,
+    Object.fromEntries(
+      Object.entries(hillSelections).map(([hillId, selections]) => [
+        hillId,
+        Array.isArray(selections[0]) ? selections[selections.length - 1] : selections,
+      ]),
+    ) as Record<string, string[]>, 
+    missions,
+  );
 
   res.status(status).json({
     activeMissions: blockMissions,

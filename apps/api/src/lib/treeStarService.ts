@@ -50,7 +50,7 @@ export type TreeStarGrantResult = {
 export type CampReachedLike = { number: number; name?: string } | null | undefined;
 
 function resolveLevelFromStars(totalStars: number) {
-  let current = TREE_LEVELS[0];
+  let current: (typeof TREE_LEVELS)[number] = TREE_LEVELS[0];
   for (const lvl of TREE_LEVELS) {
     if (totalStars >= lvl.required) current = lvl;
     else break;
@@ -238,7 +238,7 @@ export async function awardVirtueTreeStar(
 export function buildTreeProgressFromTotal(treeStarsTotal: number) {
   const currentStage = resolveLevelFromStars(treeStarsTotal);
   const nextStage =
-    currentStage.level < TREE_LEVELS.length ? TREE_LEVELS[currentStage.level] : null;
+    TREE_LEVELS.find((lvl) => lvl.level === currentStage.level + 1) ?? null;
   const starsIntoLevel = treeStarsTotal - currentStage.required;
   const starsNeededForNextLevel = nextStage
     ? nextStage.required - currentStage.required

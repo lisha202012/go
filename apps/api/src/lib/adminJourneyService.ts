@@ -1,5 +1,7 @@
-import { prisma } from './prisma';
+import { Prisma } from '@prisma/client';
+
 import type { HillCode } from '@prisma/client';
+import { prisma } from './prisma';
 
 const STEP_BUCKETS = [
   { label: '0', min: 0, max: 0 },
@@ -28,7 +30,7 @@ export async function listJourneyUsers({
   stepMin?: number;
   stepMax?: number;
 }) {
-  const where: Parameters<typeof prisma.user.findMany>[0]['where'] = {
+const where: Prisma.UserWhereInput = {
     role: 'user',
   };
 

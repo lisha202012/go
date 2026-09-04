@@ -783,9 +783,9 @@ export async function completeFlowWeekMission(
     campReached: campReachedFinal,
     treeLevelUp: treeLevelUp
       ? {
-          newLevel: treeLevelUp.newLevel,
-          newStage: treeLevelUp.newStage,
-          newTotal: treeLevelUp.newTotal,
+          newLevel: (treeLevelUp as TreeStarGrantResult).newLevel,
+          newStage: (treeLevelUp as TreeStarGrantResult).newStage,
+          newTotal: (treeLevelUp as TreeStarGrantResult).newTotal,
         }
       : null,
     coinsAwarded: coinReward,

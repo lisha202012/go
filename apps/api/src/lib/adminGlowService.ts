@@ -1,5 +1,6 @@
-import { prisma } from './prisma';
+import { Prisma } from '@prisma/client';
 import type { GlowSeedStatus } from '@prisma/client';
+import { prisma } from './prisma';
 
 export async function listGlowSeeds({
   page = 1,
@@ -18,7 +19,7 @@ export async function listGlowSeeds({
   dateTo?: string;
   flaggedOnly?: boolean;
 }) {
-  const where: Parameters<typeof prisma.glowSeed.findMany>[0]['where'] = {};
+const where: Prisma.GlowSeedWhereInput = {};
 
   if (status) where.status = status;
 
@@ -83,7 +84,7 @@ export async function listGlowSeeds({
       flagged:
         s.status === 'expired' ||
         s.sender.accountStatus === 'suspended' ||
-        s.receiver.accountStatus === 'suspended',
+        s.receiver?.accountStatus === 'suspended',
     })),
     pagination: { page, pageSize, total, totalPages: Math.ceil(total / pageSize) },
   };

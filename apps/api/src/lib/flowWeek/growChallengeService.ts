@@ -84,7 +84,7 @@ export async function countGlowSeedsEarnedInChallenge(
     select: { referenceId: true },
   });
 
-  return grants.reduce((sum, grant) => sum + seedsFromLedgerReference(grant.referenceId), 0);
+  return grants.reduce((sum, grant) => sum + (grant.referenceId ? seedsFromLedgerReference(grant.referenceId) : 0), 0);
 }
 
 export async function getGrowChallengeProgress(userId: string): Promise<GrowChallengeProgress> {

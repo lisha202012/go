@@ -244,7 +244,7 @@ type JourneyWeekRow = {
     title: string;
     coinReward: number;
   } | null;
-  status: MissionStatus | 'pending_selection';
+  status: JourneyWeekStatus;
   completedAt: string | null;
 };
 
@@ -422,6 +422,7 @@ export function buildJourneyResponse(
   const weeks: Array<{
     weekNumber: number;
     hillBlock: number;
+    hillStepNumber: number;
     taskNumber: number;
     hill: {
       id: string;
@@ -439,7 +440,7 @@ export function buildJourneyResponse(
       requiresReflection: boolean;
       requiresEvidence: boolean;
     } | null;
-    status: MissionStatus | 'pending_selection';
+    status: JourneyWeekStatus;
     startedAt: string | null;
     completedAt: string | null;
     opensAt?: string | null;
@@ -886,7 +887,7 @@ export async function completeMissionAndUnlockNext(userId: string, missionId: st
   );
 
   const completedMission = missions.find((m) => m.id === missionId);
-  let campReached: ReturnType<typeof recordHillStepComplete>['campReached'] = null;
+  let campReached: Awaited<ReturnType<typeof recordHillStepComplete>>['campReached'] = null;
 
   const journeyProbe = buildJourneyResponse(assessment, hills, missions, updatedProgress, hillStepCounts);
   const completedWeek = journeyProbe.weeks.find((w) => w.mission?.id === missionId);

@@ -168,9 +168,7 @@ export async function getHarvestDashboard(planterId: string) {
       acceptedAt: seed.acceptedAt?.toISOString() ?? null,
       harvestCoinsEarned: earned,
       milestonesAchieved: achieved,
-      milestonesAchievedCount: achieved.length,
       nextThreshold: nextMilestone?.threshold ?? null,
-      nextMilestoneReward: nextMilestone?.reward ?? null,
     });
   }
 

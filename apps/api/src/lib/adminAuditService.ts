@@ -1,3 +1,4 @@
+import { Prisma } from '@prisma/client';
 import { prisma } from './prisma';
 
 export async function listAuditLogs({
@@ -17,7 +18,7 @@ export async function listAuditLogs({
   dateFrom?: string;
   dateTo?: string;
 }) {
-  const where: Parameters<typeof prisma.auditLog.findMany>[0]['where'] = {};
+const where: Prisma.AuditLogWhereInput = {};
 
   if (module) where.module = module;
   if (action?.trim()) where.action = { contains: action.trim(), mode: 'insensitive' };

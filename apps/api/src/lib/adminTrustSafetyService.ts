@@ -1,3 +1,5 @@
+import { Prisma } from '@prisma/client';
+
 import { prisma } from './prisma';
 import { AppError } from '../middleware/errorHandler';
 
@@ -10,7 +12,7 @@ export async function getTrustSafetyOverview({
   pageSize?: number;
   search?: string;
 }) {
-  const where: Parameters<typeof prisma.user.findMany>[0]['where'] = {};
+const where: Prisma.UserWhereInput = {};
   if (search?.trim()) {
     const q = search.trim();
     where.OR = [
